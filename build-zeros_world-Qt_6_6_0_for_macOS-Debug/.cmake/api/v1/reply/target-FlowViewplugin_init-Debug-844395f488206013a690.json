@@ -1,0 +1,281 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/ds-build/src/imports/flowview/CMakeFiles/FlowViewplugin_init.dir/./FlowViewplugin_init_autogen/mocs_compilation.cpp.o"
+		},
+		{
+			"path" : "_deps/ds-build/src/imports/flowview/CMakeFiles/FlowViewplugin_init.dir/./FlowViewplugin_init.cpp.o"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt6_add_library",
+			"__qt_internal_add_static_plugin_init_object_library",
+			"qt6_add_qml_module",
+			"set_property",
+			"_qt_internal_copy_dependency_properties",
+			"__qt_internal_propagate_object_library"
+		],
+		"files" : 
+		[
+			"/Users/femi/Applications/Qt/6.6.0/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"/Users/femi/Applications/Qt/6.6.0/macos/lib/cmake/Qt6/QtPublicPluginHelpers.cmake",
+			"/Users/femi/Applications/Qt/6.6.0/macos/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"/Users/femi/Documents/GitHub/zero/build-zeros_world-Qt_6_6_0_for_macOS-Debug/_deps/ds-src/src/imports/flowview/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 650,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 258,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2295,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2369,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 654,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1674,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 2474,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 2474,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 2474,
+				"parent" : 7
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_PLUGIN"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_STATICPLUGIN"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/Users/femi/Documents/GitHub/zero/build-zeros_world-Qt_6_6_0_for_macOS-Debug/_deps/ds-build/src/imports/flowview/FlowViewplugin_init_autogen/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/femi/Documents/GitHub/zero/build-zeros_world-Qt_6_6_0_for_macOS-Debug/_deps/ds-build/src/imports/flowview/FlowViewplugin_autogen/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/femi/Applications/Qt/6.6.0/macos/lib/QtQml.framework/Headers"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/femi/Applications/Qt/6.6.0/macos/lib/QtQml.framework"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/femi/Applications/Qt/6.6.0/macos/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/femi/Applications/Qt/6.6.0/macos/lib/QtNetwork.framework/Headers"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/femi/Applications/Qt/6.6.0/macos/lib/QtNetwork.framework"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Headers"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/Users/femi/Applications/Qt/6.6.0/macos/mkspecs/macx-clang"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/Users/femi/Applications/Qt/6.6.0/macos/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					10
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "FlowViewplugin_init_autogen_timestamp_deps::@f99fd1e4b9fa497fd232"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "FlowViewplugin_init_autogen::@f99fd1e4b9fa497fd232"
+		}
+	],
+	"id" : "FlowViewplugin_init::@f99fd1e4b9fa497fd232",
+	"name" : "FlowViewplugin_init",
+	"paths" : 
+	{
+		"build" : "_deps/ds-build/src/imports/flowview",
+		"source" : "/Users/femi/Documents/GitHub/zero/build-zeros_world-Qt_6_6_0_for_macOS-Debug/_deps/ds-src/src/imports/flowview"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/femi/Documents/GitHub/zero/build-zeros_world-Qt_6_6_0_for_macOS-Debug/_deps/ds-build/src/imports/flowview/FlowViewplugin_init_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/femi/Documents/GitHub/zero/build-zeros_world-Qt_6_6_0_for_macOS-Debug/_deps/ds-build/src/imports/flowview/FlowViewplugin_init.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/femi/Documents/GitHub/zero/build-zeros_world-Qt_6_6_0_for_macOS-Debug/_deps/ds-build/src/imports/flowview/FlowViewplugin_init_autogen/timestamp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/femi/Documents/GitHub/zero/build-zeros_world-Qt_6_6_0_for_macOS-Debug/_deps/ds-build/src/imports/flowview/FlowViewplugin_init_autogen/timestamp.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

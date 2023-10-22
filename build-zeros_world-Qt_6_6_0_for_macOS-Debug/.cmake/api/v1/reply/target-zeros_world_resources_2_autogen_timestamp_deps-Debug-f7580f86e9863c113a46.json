@@ -1,0 +1,62 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"imports/zeros_world/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "QtInternalTargets"
+	},
+	"id" : "zeros_world_resources_2_autogen_timestamp_deps::@4a698088c57a96b5d931",
+	"isGeneratorProvided" : true,
+	"name" : "zeros_world_resources_2_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "imports/zeros_world",
+		"source" : "imports/zeros_world"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/femi/Documents/GitHub/zero/build-zeros_world-Qt_6_6_0_for_macOS-Debug/imports/zeros_world/CMakeFiles/zeros_world_resources_2_autogen_timestamp_deps",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/femi/Documents/GitHub/zero/build-zeros_world-Qt_6_6_0_for_macOS-Debug/imports/zeros_world/CMakeFiles/zeros_world_resources_2_autogen_timestamp_deps.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

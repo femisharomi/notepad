@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/zeros_world/">
+    <file alias="Constants.qml">/Users/femi/Documents/GitHub/zero/zeros_world/imports/zeros_world/Constants.qml</file>
+    <file alias="DirectoryFontLoader.qml">/Users/femi/Documents/GitHub/zero/zeros_world/imports/zeros_world/DirectoryFontLoader.qml</file>
+    <file alias="EventListModel.qml">/Users/femi/Documents/GitHub/zero/zeros_world/imports/zeros_world/EventListModel.qml</file>
+    <file alias="EventListSimulator.qml">/Users/femi/Documents/GitHub/zero/zeros_world/imports/zeros_world/EventListSimulator.qml</file>
+  </qresource>
+</RCC>
+

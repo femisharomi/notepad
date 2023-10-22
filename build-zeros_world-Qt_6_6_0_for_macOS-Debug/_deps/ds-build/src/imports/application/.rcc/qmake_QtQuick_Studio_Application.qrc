@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/QtQuick/Studio/Application">
+    <file alias="qmldir">/Users/femi/Documents/GitHub/zero/build-zeros_world-Qt_6_6_0_for_macOS-Debug/qml/QtQuick/Studio/Application/qmldir</file>
+  </qresource>
+</RCC>
+

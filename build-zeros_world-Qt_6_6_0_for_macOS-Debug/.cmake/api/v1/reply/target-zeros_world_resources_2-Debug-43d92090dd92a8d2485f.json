@@ -1,0 +1,307 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "imports/zeros_world/CMakeFiles/zeros_world_resources_2.dir/./zeros_world_resources_2_autogen/mocs_compilation.cpp.o"
+		},
+		{
+			"path" : "imports/zeros_world/CMakeFiles/zeros_world_resources_2.dir/./.rcc/qrc_zeros_world_raw_qml_0.cpp.o"
+		}
+	],
+	"backtrace" : 6,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"__qt_propagate_generated_resource",
+			"_qt_internal_process_resource",
+			"qt6_add_resources",
+			"qt6_target_qml_sources",
+			"qt6_add_qml_module",
+			"target_compile_definitions",
+			"set_property",
+			"_qt_internal_copy_dependency_properties",
+			"__qt_internal_propagate_object_library"
+		],
+		"files" : 
+		[
+			"/Users/femi/Applications/Qt/6.6.0/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"/Users/femi/Applications/Qt/6.6.0/macos/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"imports/zeros_world/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 633,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 2343,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 326,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2121,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1729,
+				"parent" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1730,
+				"parent" : 5
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 1758,
+				"parent" : 5
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 1674,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2474,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2474,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2474,
+				"parent" : 9
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "QT_QML_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/Users/femi/Documents/GitHub/zero/build-zeros_world-Qt_6_6_0_for_macOS-Debug/imports/zeros_world/zeros_world_resources_2_autogen/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/femi/Documents/GitHub/zero/build-zeros_world-Qt_6_6_0_for_macOS-Debug/imports/zeros_world/zeros_world_autogen/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/femi/Documents/GitHub/zero/zeros_world/imports/zeros_world"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/femi/Applications/Qt/6.6.0/macos/lib/QtQml.framework/Versions/A/Headers/6.6.0"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/femi/Applications/Qt/6.6.0/macos/lib/QtQml.framework/Versions/A/Headers/6.6.0/QtQml"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/6.6.0"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/6.6.0/QtCore"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Headers"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/femi/Applications/Qt/6.6.0/macos/lib/QtQml.framework/Headers"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/femi/Applications/Qt/6.6.0/macos/lib/QtQml.framework"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/femi/Applications/Qt/6.6.0/macos/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/femi/Applications/Qt/6.6.0/macos/lib/QtNetwork.framework/Headers"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/femi/Applications/Qt/6.6.0/macos/lib/QtNetwork.framework"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/femi/Applications/Qt/6.6.0/macos/mkspecs/macx-clang"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/femi/Applications/Qt/6.6.0/macos/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					12
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "zeros_world_resources_2_autogen_timestamp_deps::@4a698088c57a96b5d931"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "zeros_world_resources_2_autogen::@4a698088c57a96b5d931"
+		}
+	],
+	"id" : "zeros_world_resources_2::@4a698088c57a96b5d931",
+	"name" : "zeros_world_resources_2",
+	"paths" : 
+	{
+		"build" : "imports/zeros_world",
+		"source" : "imports/zeros_world"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				3,
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/femi/Documents/GitHub/zero/build-zeros_world-Qt_6_6_0_for_macOS-Debug/imports/zeros_world/zeros_world_resources_2_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/femi/Documents/GitHub/zero/build-zeros_world-Qt_6_6_0_for_macOS-Debug/imports/zeros_world/.rcc/qrc_zeros_world_raw_qml_0.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/femi/Documents/GitHub/zero/build-zeros_world-Qt_6_6_0_for_macOS-Debug/imports/zeros_world/zeros_world_resources_2_autogen/timestamp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/femi/Documents/GitHub/zero/build-zeros_world-Qt_6_6_0_for_macOS-Debug/imports/zeros_world/.rcc/qrc_zeros_world_raw_qml_0.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/femi/Documents/GitHub/zero/build-zeros_world-Qt_6_6_0_for_macOS-Debug/imports/zeros_world/zeros_world_resources_2_autogen/timestamp.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}
