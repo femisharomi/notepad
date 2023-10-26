@@ -1,8 +1,0 @@
-<RCC>
-  <qresource prefix="/QtQuick/Studio/MultiText/">
-    <file alias="MultiTextElement.qml">/Users/femi/Documents/GitHub/zero/build-zeros_world-Qt_6_6_0_for_macOS-Debug/_deps/ds-src/src/imports/multitext/MultiTextElement.qml</file>
-    <file alias="MultiTextItem.qml">/Users/femi/Documents/GitHub/zero/build-zeros_world-Qt_6_6_0_for_macOS-Debug/_deps/ds-src/src/imports/multitext/MultiTextItem.qml</file>
-    <file alias="MultiTextException.qml">/Users/femi/Documents/GitHub/zero/build-zeros_world-Qt_6_6_0_for_macOS-Debug/_deps/ds-src/src/imports/multitext/MultiTextException.qml</file>
-  </qresource>
-</RCC>
-

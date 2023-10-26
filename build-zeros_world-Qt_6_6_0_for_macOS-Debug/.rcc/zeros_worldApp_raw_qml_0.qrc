@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/Main/">
-    <file alias="main.qml">/Users/femi/Documents/GitHub/zero/zeros_world/main.qml</file>
-  </qresource>
-</RCC>
-
