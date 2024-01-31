@@ -8,11 +8,8 @@ Window {
 
     Page {
         id: page
-        anchors.fill:  parent
-    }
-
-    Background {
-        id: bkg
-    }
-
+        anchors.fill: parent
+        }
 }
+
+

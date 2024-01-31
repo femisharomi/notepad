@@ -3,5 +3,4 @@ typeinfo appQtQuickAppTute.qmltypes
 prefer :/QtQuickAppTute/
 Main 1.0 Main.qml
 Page 1.0 Page.qml
-Background 1.0 Background.qml
 

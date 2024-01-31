@@ -47,7 +47,7 @@ cmake_ninja_workdir = /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tuto
 #############################################
 # Order-only phony target for appQtQuickAppTute
 
-build cmake_object_order_depends_target_appQtQuickAppTute: phony || .rcc/qmlcache/appQtQuickAppTute_Background_qml.cpp .rcc/qmlcache/appQtQuickAppTute_Main_qml.cpp .rcc/qmlcache/appQtQuickAppTute_Page_qml.cpp .rcc/qmlcache/appQtQuickAppTute_qmlcache_loader.cpp .rcc/qrc_appQtQuickAppTute_raw_qml_0.cpp .rcc/qrc_qmake_QtQuickAppTute.cpp QtQuickAppTute/appQtQuickAppTute.qmltypes appQtQuickAppTute_autogen appQtQuickAppTute_autogen/mocs_compilation.cpp appQtQuickAppTute_autogen/timestamp appQtQuickAppTute_autogen_timestamp_deps appQtQuickAppTute_qmlimportscan appQtQuickAppTute_tooling appqtquickapptute_qmltyperegistrations.cpp meta_types/appQtQuickAppTute_json_file_list.txt meta_types/appQtQuickAppTute_json_file_list.txt.timestamp meta_types/qt6appqtquickapptute_debug_metatypes.json meta_types/qt6appqtquickapptute_debug_metatypes.json.gen
+build cmake_object_order_depends_target_appQtQuickAppTute: phony || .rcc/qmlcache/appQtQuickAppTute_Main_qml.cpp .rcc/qmlcache/appQtQuickAppTute_Page_qml.cpp .rcc/qmlcache/appQtQuickAppTute_qmlcache_loader.cpp .rcc/qrc_appQtQuickAppTute_raw_qml_0.cpp .rcc/qrc_qmake_QtQuickAppTute.cpp QtQuickAppTute/appQtQuickAppTute.qmltypes appQtQuickAppTute_autogen appQtQuickAppTute_autogen/mocs_compilation.cpp appQtQuickAppTute_autogen/timestamp appQtQuickAppTute_autogen_timestamp_deps appQtQuickAppTute_qmlimportscan appQtQuickAppTute_tooling appqtquickapptute_qmltyperegistrations.cpp meta_types/appQtQuickAppTute_json_file_list.txt meta_types/appQtQuickAppTute_json_file_list.txt.timestamp meta_types/qt6appqtquickapptute_debug_metatypes.json meta_types/qt6appqtquickapptute_debug_metatypes.json.gen
 
 build CMakeFiles/appQtQuickAppTute.dir/appQtQuickAppTute_autogen/mocs_compilation.cpp.o: CXX_COMPILER__appQtQuickAppTute_unscanned_Debug /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/appQtQuickAppTute_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_appQtQuickAppTute
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB
@@ -105,14 +105,6 @@ build CMakeFiles/appQtQuickAppTute.dir/.rcc/qmlcache/appQtQuickAppTute_Page_qml.
   OBJECT_DIR = CMakeFiles/appQtQuickAppTute.dir
   OBJECT_FILE_DIR = CMakeFiles/appQtQuickAppTute.dir/.rcc/qmlcache
 
-build CMakeFiles/appQtQuickAppTute.dir/.rcc/qmlcache/appQtQuickAppTute_Background_qml.cpp.o: CXX_COMPILER__appQtQuickAppTute_unscanned_Debug /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/.rcc/qmlcache/appQtQuickAppTute_Background_qml.cpp || cmake_object_order_depends_target_appQtQuickAppTute
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB
-  DEP_FILE = CMakeFiles/appQtQuickAppTute.dir/.rcc/qmlcache/appQtQuickAppTute_Background_qml.cpp.o.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/appQtQuickAppTute_autogen/include -I/Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute -isystem /Users/femi/Applications/Qt/6.6.0/macos/lib/QtQml.framework/Versions/A/Headers/6.6.0 -isystem /Users/femi/Applications/Qt/6.6.0/macos/lib/QtQml.framework/Versions/A/Headers/6.6.0/QtQml -isystem /Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/6.6.0 -isystem /Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/6.6.0/QtCore -isystem /Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Headers -iframework /Users/femi/Applications/Qt/6.6.0/macos/lib -isystem /Users/femi/Applications/Qt/6.6.0/macos/mkspecs/macx-clang -isystem /Users/femi/Applications/Qt/6.6.0/macos/include -isystem /Users/femi/Applications/Qt/6.6.0/macos/lib/QtQml.framework/Headers -isystem /Users/femi/Applications/Qt/6.6.0/macos/include/QtQmlIntegration -isystem /Users/femi/Applications/Qt/6.6.0/macos/lib/QtNetwork.framework/Headers -isystem /Users/femi/Applications/Qt/6.6.0/macos/lib/QtQuick.framework/Headers -isystem /Users/femi/Applications/Qt/6.6.0/macos/lib/QtGui.framework/Headers -isystem /Users/femi/Applications/Qt/6.6.0/macos/lib/QtQmlModels.framework/Headers -isystem /Users/femi/Applications/Qt/6.6.0/macos/lib/QtOpenGL.framework/Headers
-  OBJECT_DIR = CMakeFiles/appQtQuickAppTute.dir
-  OBJECT_FILE_DIR = CMakeFiles/appQtQuickAppTute.dir/.rcc/qmlcache
-
 build CMakeFiles/appQtQuickAppTute.dir/.rcc/qrc_appQtQuickAppTute_raw_qml_0.cpp.o: CXX_COMPILER__appQtQuickAppTute_unscanned_Debug /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/.rcc/qrc_appQtQuickAppTute_raw_qml_0.cpp || cmake_object_order_depends_target_appQtQuickAppTute
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB
   DEP_FILE = CMakeFiles/appQtQuickAppTute.dir/.rcc/qrc_appQtQuickAppTute_raw_qml_0.cpp.o.d
@@ -129,7 +121,7 @@ build CMakeFiles/appQtQuickAppTute.dir/.rcc/qrc_appQtQuickAppTute_raw_qml_0.cpp.
 #############################################
 # Link the executable appQtQuickAppTute.app/Contents/MacOS/appQtQuickAppTute
 
-build appQtQuickAppTute.app/Contents/MacOS/appQtQuickAppTute: CXX_EXECUTABLE_LINKER__appQtQuickAppTute_Debug CMakeFiles/appQtQuickAppTute.dir/appQtQuickAppTute_autogen/mocs_compilation.cpp.o CMakeFiles/appQtQuickAppTute.dir/main.cpp.o CMakeFiles/appQtQuickAppTute.dir/appqtquickapptute_qmltyperegistrations.cpp.o CMakeFiles/appQtQuickAppTute.dir/.rcc/qrc_qmake_QtQuickAppTute.cpp.o CMakeFiles/appQtQuickAppTute.dir/.rcc/qmlcache/appQtQuickAppTute_qmlcache_loader.cpp.o CMakeFiles/appQtQuickAppTute.dir/.rcc/qmlcache/appQtQuickAppTute_Main_qml.cpp.o CMakeFiles/appQtQuickAppTute.dir/.rcc/qmlcache/appQtQuickAppTute_Page_qml.cpp.o CMakeFiles/appQtQuickAppTute.dir/.rcc/qmlcache/appQtQuickAppTute_Background_qml.cpp.o CMakeFiles/appQtQuickAppTute.dir/.rcc/qrc_appQtQuickAppTute_raw_qml_0.cpp.o | /Users/femi/Applications/Qt/6.6.0/macos/lib/QtQuick.framework/Versions/A/QtQuick /Users/femi/Applications/Qt/6.6.0/macos/lib/QtQmlModels.framework/Versions/A/QtQmlModels /Users/femi/Applications/Qt/6.6.0/macos/lib/QtQml.framework/Versions/A/QtQml /Users/femi/Applications/Qt/6.6.0/macos/lib/QtNetwork.framework/Versions/A/QtNetwork /Users/femi/Applications/Qt/6.6.0/macos/lib/QtOpenGL.framework/Versions/A/QtOpenGL /Users/femi/Applications/Qt/6.6.0/macos/lib/QtGui.framework/Versions/A/QtGui /Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/QtCore || appQtQuickAppTute_autogen appQtQuickAppTute_autogen_timestamp_deps appQtQuickAppTute_qmlimportscan appQtQuickAppTute_tooling
+build appQtQuickAppTute.app/Contents/MacOS/appQtQuickAppTute: CXX_EXECUTABLE_LINKER__appQtQuickAppTute_Debug CMakeFiles/appQtQuickAppTute.dir/appQtQuickAppTute_autogen/mocs_compilation.cpp.o CMakeFiles/appQtQuickAppTute.dir/main.cpp.o CMakeFiles/appQtQuickAppTute.dir/appqtquickapptute_qmltyperegistrations.cpp.o CMakeFiles/appQtQuickAppTute.dir/.rcc/qrc_qmake_QtQuickAppTute.cpp.o CMakeFiles/appQtQuickAppTute.dir/.rcc/qmlcache/appQtQuickAppTute_qmlcache_loader.cpp.o CMakeFiles/appQtQuickAppTute.dir/.rcc/qmlcache/appQtQuickAppTute_Main_qml.cpp.o CMakeFiles/appQtQuickAppTute.dir/.rcc/qmlcache/appQtQuickAppTute_Page_qml.cpp.o CMakeFiles/appQtQuickAppTute.dir/.rcc/qrc_appQtQuickAppTute_raw_qml_0.cpp.o | /Users/femi/Applications/Qt/6.6.0/macos/lib/QtQuick.framework/Versions/A/QtQuick /Users/femi/Applications/Qt/6.6.0/macos/lib/QtQmlModels.framework/Versions/A/QtQmlModels /Users/femi/Applications/Qt/6.6.0/macos/lib/QtQml.framework/Versions/A/QtQml /Users/femi/Applications/Qt/6.6.0/macos/lib/QtNetwork.framework/Versions/A/QtNetwork /Users/femi/Applications/Qt/6.6.0/macos/lib/QtOpenGL.framework/Versions/A/QtOpenGL /Users/femi/Applications/Qt/6.6.0/macos/lib/QtGui.framework/Versions/A/QtGui /Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/QtCore || appQtQuickAppTute_autogen appQtQuickAppTute_autogen_timestamp_deps appQtQuickAppTute_qmlimportscan appQtQuickAppTute_tooling
   FLAGS = -DQT_QML_DEBUG -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   LINK_LIBRARIES = -Wl,-rpath,/Users/femi/Applications/Qt/6.6.0/macos/lib  /Users/femi/Applications/Qt/6.6.0/macos/lib/QtQuick.framework/Versions/A/QtQuick  /Users/femi/Applications/Qt/6.6.0/macos/lib/QtQmlModels.framework/Versions/A/QtQmlModels  /Users/femi/Applications/Qt/6.6.0/macos/lib/QtQml.framework/Versions/A/QtQml  /Users/femi/Applications/Qt/6.6.0/macos/lib/QtNetwork.framework/Versions/A/QtNetwork  /Users/femi/Applications/Qt/6.6.0/macos/lib/QtOpenGL.framework/Versions/A/QtOpenGL  /Users/femi/Applications/Qt/6.6.0/macos/lib/QtGui.framework/Versions/A/QtGui  /Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/QtCore  -framework IOKit  -framework DiskArbitration  -Xlinker -framework -Xlinker OpenGL  -Xlinker -framework -Xlinker AGL  -framework AppKit  -framework ImageIO  -framework Metal
   LINK_PATH = -iframework /Users/femi/Applications/Qt/6.6.0/macos/lib
@@ -191,7 +183,7 @@ build all_qmllint_module: phony appQtQuickAppTute_qmllint_module
 #############################################
 # Utility command for appQtQuickAppTute_tooling
 
-build appQtQuickAppTute_tooling: phony QtQuickAppTute/Main.qml QtQuickAppTute/Page.qml QtQuickAppTute/Background.qml QtQuickAppTute/qt-logo.png QtQuickAppTute/luffy.jpg QtQuickAppTute/me.jpg
+build appQtQuickAppTute_tooling: phony QtQuickAppTute/Main.qml QtQuickAppTute/Page.qml QtQuickAppTute/qt-logo.png QtQuickAppTute/luffy.jpg
 
 
 #############################################
@@ -333,18 +325,9 @@ build .rcc/qmlcache/appQtQuickAppTute_Page_qml.cpp | ${cmake_ninja_workdir}.rcc/
 
 
 #############################################
-# Custom command for .rcc/qmlcache/appQtQuickAppTute_Background_qml.cpp
-
-build .rcc/qmlcache/appQtQuickAppTute_Background_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/appQtQuickAppTute_Background_qml.cpp: CUSTOM_COMMAND /Users/femi/Applications/Qt/6.6.0/macos/libexec/qmlcachegen /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Background.qml .rcc/qmake_QtQuickAppTute.qrc .rcc/appQtQuickAppTute_raw_qml_0.qrc QtQuickAppTute/appQtQuickAppTute.qmltypes QtQuickAppTute/qmldir || appQtQuickAppTute_autogen appQtQuickAppTute_autogen_timestamp_deps appQtQuickAppTute_qmlimportscan appQtQuickAppTute_tooling
-  COMMAND = cd /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug && /Users/femi/Applications/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E make_directory /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/.rcc/qmlcache && /Users/femi/Applications/Qt/6.6.0/macos/./libexec/qmlcachegen --bare --resource-path /QtQuickAppTute/Background.qml -I /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug -I /Users/femi/Applications/Qt/6.6.0/macos/./qml -i /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/QtQuickAppTute/qmldir --resource /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/.rcc/qmake_QtQuickAppTute.qrc --resource /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/.rcc/appQtQuickAppTute_raw_qml_0.qrc -o /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/.rcc/qmlcache/appQtQuickAppTute_Background_qml.cpp /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Background.qml
-  DESC = Generating .rcc/qmlcache/appQtQuickAppTute_Background_qml.cpp
-  restat = 1
-
-
-#############################################
 # Custom command for .rcc/qrc_appQtQuickAppTute_raw_qml_0.cpp
 
-build .rcc/qrc_appQtQuickAppTute_raw_qml_0.cpp | ${cmake_ninja_workdir}.rcc/qrc_appQtQuickAppTute_raw_qml_0.cpp: CUSTOM_COMMAND /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Main.qml /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Page.qml /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Background.qml /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/qt-logo.png /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/luffy.jpg /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/me.jpg .rcc/appQtQuickAppTute_raw_qml_0.qrc /Users/femi/Applications/Qt/6.6.0/macos/./libexec/rcc || appQtQuickAppTute_autogen appQtQuickAppTute_autogen_timestamp_deps appQtQuickAppTute_qmlimportscan appQtQuickAppTute_tooling
+build .rcc/qrc_appQtQuickAppTute_raw_qml_0.cpp | ${cmake_ninja_workdir}.rcc/qrc_appQtQuickAppTute_raw_qml_0.cpp: CUSTOM_COMMAND /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Main.qml /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Page.qml /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/qt-logo.png /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/luffy.jpg .rcc/appQtQuickAppTute_raw_qml_0.qrc /Users/femi/Applications/Qt/6.6.0/macos/./libexec/rcc || appQtQuickAppTute_autogen appQtQuickAppTute_autogen_timestamp_deps appQtQuickAppTute_qmlimportscan appQtQuickAppTute_tooling
   COMMAND = cd /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug && /Users/femi/Applications/Qt/6.6.0/macos/./libexec/rcc --output /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/.rcc/qrc_appQtQuickAppTute_raw_qml_0.cpp --name appQtQuickAppTute_raw_qml_0 /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/.rcc/appQtQuickAppTute_raw_qml_0.qrc --no-zstd
   DESC = Running rcc for resource appQtQuickAppTute_raw_qml_0
   restat = 1
@@ -378,21 +361,21 @@ build CMakeFiles/appQtQuickAppTute_qmltyperegistration | ${cmake_ninja_workdir}C
 #############################################
 # Custom command for CMakeFiles/appQtQuickAppTute_qmllint
 
-build CMakeFiles/appQtQuickAppTute_qmllint | ${cmake_ninja_workdir}CMakeFiles/appQtQuickAppTute_qmllint: CUSTOM_COMMAND /Users/femi/Applications/Qt/6.6.0/macos/bin/qmllint /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Main.qml /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Page.qml /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Background.qml || all_qmltyperegistrations appQtQuickAppTute_qmltyperegistration
-  COMMAND = cd /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute && /Users/femi/Applications/Qt/6.6.0/macos/bin/qmllint --bare -I /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug -I /Users/femi/Applications/Qt/6.6.0/macos/./qml --resource /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/.rcc/qmake_QtQuickAppTute.qrc --resource /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/.rcc/appQtQuickAppTute_raw_qml_0.qrc /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Main.qml /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Page.qml /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Background.qml
+build CMakeFiles/appQtQuickAppTute_qmllint | ${cmake_ninja_workdir}CMakeFiles/appQtQuickAppTute_qmllint: CUSTOM_COMMAND /Users/femi/Applications/Qt/6.6.0/macos/bin/qmllint /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Main.qml /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Page.qml || all_qmltyperegistrations appQtQuickAppTute_qmltyperegistration
+  COMMAND = cd /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute && /Users/femi/Applications/Qt/6.6.0/macos/bin/qmllint --bare -I /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug -I /Users/femi/Applications/Qt/6.6.0/macos/./qml --resource /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/.rcc/qmake_QtQuickAppTute.qrc --resource /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/.rcc/appQtQuickAppTute_raw_qml_0.qrc /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Main.qml /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Page.qml
 
 
 #############################################
 # Custom command for CMakeFiles/appQtQuickAppTute_qmllint_json
 
-build CMakeFiles/appQtQuickAppTute_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appQtQuickAppTute_qmllint_json: CUSTOM_COMMAND /Users/femi/Applications/Qt/6.6.0/macos/bin/qmllint /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Main.qml /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Page.qml /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Background.qml || all_qmltyperegistrations appQtQuickAppTute_qmltyperegistration
-  COMMAND = cd /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute && /Users/femi/Applications/Qt/6.6.0/macos/bin/qmllint --bare -I /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug -I /Users/femi/Applications/Qt/6.6.0/macos/./qml --resource /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/.rcc/qmake_QtQuickAppTute.qrc --resource /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/.rcc/appQtQuickAppTute_raw_qml_0.qrc /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Main.qml /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Page.qml /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Background.qml --json /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/appQtQuickAppTute_qmllint.json
+build CMakeFiles/appQtQuickAppTute_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appQtQuickAppTute_qmllint_json: CUSTOM_COMMAND /Users/femi/Applications/Qt/6.6.0/macos/bin/qmllint /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Main.qml /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Page.qml || all_qmltyperegistrations appQtQuickAppTute_qmltyperegistration
+  COMMAND = cd /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute && /Users/femi/Applications/Qt/6.6.0/macos/bin/qmllint --bare -I /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug -I /Users/femi/Applications/Qt/6.6.0/macos/./qml --resource /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/.rcc/qmake_QtQuickAppTute.qrc --resource /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/.rcc/appQtQuickAppTute_raw_qml_0.qrc /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Main.qml /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Page.qml --json /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/appQtQuickAppTute_qmllint.json
 
 
 #############################################
 # Custom command for CMakeFiles/appQtQuickAppTute_qmllint_module
 
-build CMakeFiles/appQtQuickAppTute_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appQtQuickAppTute_qmllint_module: CUSTOM_COMMAND /Users/femi/Applications/Qt/6.6.0/macos/bin/qmllint /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Main.qml /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Page.qml /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Background.qml || all_qmltyperegistrations appQtQuickAppTute_qmltyperegistration
+build CMakeFiles/appQtQuickAppTute_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appQtQuickAppTute_qmllint_module: CUSTOM_COMMAND /Users/femi/Applications/Qt/6.6.0/macos/bin/qmllint /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Main.qml /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Page.qml || all_qmltyperegistrations appQtQuickAppTute_qmltyperegistration
   COMMAND = cd /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute && /Users/femi/Applications/Qt/6.6.0/macos/bin/qmllint -I /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug -I /Users/femi/Applications/Qt/6.6.0/macos/./qml --resource /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/.rcc/qmake_QtQuickAppTute.qrc --resource /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/.rcc/appQtQuickAppTute_raw_qml_0.qrc --module QtQuickAppTute
 
 
@@ -415,15 +398,6 @@ build QtQuickAppTute/Page.qml | ${cmake_ninja_workdir}QtQuickAppTute/Page.qml: C
 
 
 #############################################
-# Custom command for QtQuickAppTute/Background.qml
-
-build QtQuickAppTute/Background.qml | ${cmake_ninja_workdir}QtQuickAppTute/Background.qml: CUSTOM_COMMAND /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Background.qml
-  COMMAND = cd /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute && /Users/femi/Applications/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E copy /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Background.qml /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/QtQuickAppTute/Background.qml
-  DESC = Copying Background.qml to /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/QtQuickAppTute/Background.qml
-  restat = 1
-
-
-#############################################
 # Custom command for QtQuickAppTute/qt-logo.png
 
 build QtQuickAppTute/qt-logo.png | ${cmake_ninja_workdir}QtQuickAppTute/qt-logo.png: CUSTOM_COMMAND /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/qt-logo.png
@@ -442,15 +416,6 @@ build QtQuickAppTute/luffy.jpg | ${cmake_ninja_workdir}QtQuickAppTute/luffy.jpg:
 
 
 #############################################
-# Custom command for QtQuickAppTute/me.jpg
-
-build QtQuickAppTute/me.jpg | ${cmake_ninja_workdir}QtQuickAppTute/me.jpg: CUSTOM_COMMAND /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/me.jpg
-  COMMAND = cd /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute && /Users/femi/Applications/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E copy /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/me.jpg /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/QtQuickAppTute/me.jpg
-  DESC = Copying me.jpg to /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/QtQuickAppTute/me.jpg
-  restat = 1
-
-
-#############################################
 # Phony custom command for CMakeFiles/appQtQuickAppTute_qmlimportscan
 
 build CMakeFiles/appQtQuickAppTute_qmlimportscan | ${cmake_ninja_workdir}CMakeFiles/appQtQuickAppTute_qmlimportscan: phony .qt_plugins/Qt6_QmlPlugins_Imports_appQtQuickAppTute.cmake
@@ -459,7 +424,7 @@ build CMakeFiles/appQtQuickAppTute_qmlimportscan | ${cmake_ninja_workdir}CMakeFi
 #############################################
 # Custom command for .qt_plugins/Qt6_QmlPlugins_Imports_appQtQuickAppTute.cmake
 
-build .qt_plugins/Qt6_QmlPlugins_Imports_appQtQuickAppTute.cmake | ${cmake_ninja_workdir}.qt_plugins/Qt6_QmlPlugins_Imports_appQtQuickAppTute.cmake: CUSTOM_COMMAND /Users/femi/Applications/Qt/6.6.0/macos/libexec/qmlimportscanner .rcc/qmake_QtQuickAppTute.qrc .rcc/appQtQuickAppTute_raw_qml_0.qrc /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Main.qml /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Page.qml /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Background.qml
+build .qt_plugins/Qt6_QmlPlugins_Imports_appQtQuickAppTute.cmake | ${cmake_ninja_workdir}.qt_plugins/Qt6_QmlPlugins_Imports_appQtQuickAppTute.cmake: CUSTOM_COMMAND /Users/femi/Applications/Qt/6.6.0/macos/libexec/qmlimportscanner .rcc/qmake_QtQuickAppTute.qrc .rcc/appQtQuickAppTute_raw_qml_0.qrc /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Main.qml /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Page.qml
   COMMAND = cd /Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute && /Users/femi/Applications/Qt/6.6.0/macos/./libexec/qmlimportscanner @/Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appQtQuickAppTute.rsp
   DESC = Running qmlimportscanner for appQtQuickAppTute
   restat = 1
@@ -468,7 +433,7 @@ build .qt_plugins/Qt6_QmlPlugins_Imports_appQtQuickAppTute.cmake | ${cmake_ninja
 #############################################
 # Phony custom command for CMakeFiles/appQtQuickAppTute_autogen_timestamp_deps
 
-build CMakeFiles/appQtQuickAppTute_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/appQtQuickAppTute_autogen_timestamp_deps: phony .rcc/qmlcache/appQtQuickAppTute_qmlcache_loader.cpp /Users/femi/Applications/Qt/6.6.0/macos/./libexec/moc /Users/femi/Applications/Qt/6.6.0/macos/lib/QtQml.framework/Versions/A/QtQml /Users/femi/Applications/Qt/6.6.0/macos/lib/QtQuick.framework/Versions/A/QtQuick
+build CMakeFiles/appQtQuickAppTute_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/appQtQuickAppTute_autogen_timestamp_deps: phony .rcc/qmlcache/appQtQuickAppTute_qmlcache_loader.cpp /Users/femi/Applications/Qt/6.6.0/macos/lib/QtQml.framework/Versions/A/QtQml /Users/femi/Applications/Qt/6.6.0/macos/lib/QtQuick.framework/Versions/A/QtQuick /Users/femi/Applications/Qt/6.6.0/macos/./libexec/moc
 
 
 #############################################

@@ -92,14 +92,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appQtQuickAppTute::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appQtQuickAppTute-Debug-3cb9eeaeedf0cda0e7e3.json",
+					"jsonFile" : "target-appQtQuickAppTute-Debug-32f886851e84f727d3e2.json",
 					"name" : "appQtQuickAppTute",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "appQtQuickAppTute_autogen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appQtQuickAppTute_autogen-Debug-e1994a53f24d0ce70a8c.json",
+					"jsonFile" : "target-appQtQuickAppTute_autogen-Debug-be3053f1aa3533e86729.json",
 					"name" : "appQtQuickAppTute_autogen",
 					"projectIndex" : 0
 				},
@@ -148,7 +148,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appQtQuickAppTute_tooling::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appQtQuickAppTute_tooling-Debug-25495cd65175490b03cb.json",
+					"jsonFile" : "target-appQtQuickAppTute_tooling-Debug-58116ecea6fb12703e83.json",
 					"name" : "appQtQuickAppTute_tooling",
 					"projectIndex" : 0
 				}

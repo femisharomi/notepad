@@ -2,10 +2,8 @@
   <qresource prefix="/QtQuickAppTute/">
     <file alias="Main.qml">/Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Main.qml</file>
     <file alias="Page.qml">/Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Page.qml</file>
-    <file alias="Background.qml">/Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/Background.qml</file>
     <file alias="qt-logo.png">/Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/qt-logo.png</file>
     <file alias="luffy.jpg">/Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/luffy.jpg</file>
-    <file alias="me.jpg">/Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/QtQuickAppTute/me.jpg</file>
   </qresource>
 </RCC>
 

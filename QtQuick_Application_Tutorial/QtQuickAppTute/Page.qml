@@ -9,8 +9,9 @@ Rectangle {
         id: icon
         x: 20
         y: 20
-        fillMode: Image.PreserveAspectFit
-        source: "qt-logo.png"
+        width: 73
+        height: 41
+        source: "luffy.jpg"
     }
 
     Rectangle {
@@ -120,7 +121,9 @@ Rectangle {
                     PropertyAnimation {
                         target: icon
                         property: "y"
-                        duration: 200
+                        easing.amplitude: 1.5000
+                        easing.type: Easing.InOutQuad
+                        duration: 2000
                     }
                 }
 
@@ -132,7 +135,8 @@ Rectangle {
                     PropertyAnimation {
                         target: icon
                         property: "x"
-                        duration: 200
+                        easing.type: Easing.InOutQuad
+                        duration: 2000
                     }
                 }
             }
@@ -151,7 +155,7 @@ Rectangle {
                         target: icon
                         property: "y"
                         easing.type: Easing.OutBounce
-                        duration: 1006
+                        duration: 2006
                     }
                 }
 
@@ -164,7 +168,7 @@ Rectangle {
                         target: icon
                         property: "x"
                         easing.type: Easing.OutBounce
-                        duration: 1006
+                        duration: 2000
                     }
                 }
             }

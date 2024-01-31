@@ -19,13 +19,6 @@ namespace _0x5f_QtQuickAppTute_Page_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
-namespace _0x5f_QtQuickAppTute_Background_qml { 
-    extern const unsigned char qmlData[];
-    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
-    const QQmlPrivate::CachedQmlUnit unit = {
-        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
-    };
-}
 
 }
 namespace {
@@ -42,7 +35,6 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/QtQuickAppTute/Main.qml"), &QmlCacheGeneratedCode::_0x5f_QtQuickAppTute_Main_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/QtQuickAppTute/Page.qml"), &QmlCacheGeneratedCode::_0x5f_QtQuickAppTute_Page_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/QtQuickAppTute/Background.qml"), &QmlCacheGeneratedCode::_0x5f_QtQuickAppTute_Background_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;
