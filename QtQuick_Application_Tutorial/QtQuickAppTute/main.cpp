@@ -1,7 +1,6 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 
-// Main function
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
@@ -18,6 +17,12 @@ int main(int argc, char *argv[])
 
     return app.exec();
 }
+/*
+ * Author: Femi Sharomi
+ * Date Created:   2024-02-02
+ */
+
+
 /*
  * Author: Femi Sharomi
  * Date Created:   2024-02-02
