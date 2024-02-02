@@ -433,7 +433,7 @@ build .qt_plugins/Qt6_QmlPlugins_Imports_appQtQuickAppTute.cmake | ${cmake_ninja
 #############################################
 # Phony custom command for CMakeFiles/appQtQuickAppTute_autogen_timestamp_deps
 
-build CMakeFiles/appQtQuickAppTute_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/appQtQuickAppTute_autogen_timestamp_deps: phony .rcc/qmlcache/appQtQuickAppTute_qmlcache_loader.cpp /Users/femi/Applications/Qt/6.6.0/macos/lib/QtQml.framework/Versions/A/QtQml /Users/femi/Applications/Qt/6.6.0/macos/lib/QtQuick.framework/Versions/A/QtQuick /Users/femi/Applications/Qt/6.6.0/macos/./libexec/moc
+build CMakeFiles/appQtQuickAppTute_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/appQtQuickAppTute_autogen_timestamp_deps: phony .rcc/qmlcache/appQtQuickAppTute_qmlcache_loader.cpp /Users/femi/Applications/Qt/6.6.0/macos/./libexec/moc /Users/femi/Applications/Qt/6.6.0/macos/lib/QtQml.framework/Versions/A/QtQml /Users/femi/Applications/Qt/6.6.0/macos/lib/QtQuick.framework/Versions/A/QtQuick
 
 
 #############################################

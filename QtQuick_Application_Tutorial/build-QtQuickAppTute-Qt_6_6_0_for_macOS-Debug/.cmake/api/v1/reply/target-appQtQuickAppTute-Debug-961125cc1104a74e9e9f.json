@@ -96,13 +96,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 43,
+				"line" : 42,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 38,
+				"line" : 37,
 				"parent" : 0
 			},
 			{
@@ -732,16 +732,16 @@
 	"dependencies" : 
 	[
 		{
+			"backtrace" : 0,
+			"id" : "appQtQuickAppTute_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
 			"backtrace" : 55,
 			"id" : "appQtQuickAppTute_tooling::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 62,
 			"id" : "appQtQuickAppTute_qmlimportscan::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 0,
-			"id" : "appQtQuickAppTute_autogen::@6890427a1f51a3e7e1df"
 		},
 		{
 			"id" : "appQtQuickAppTute_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
@@ -886,14 +886,14 @@
 				11,
 				12,
 				13,
-				17,
+				16,
+				26,
 				27,
 				28,
 				29,
 				30,
 				31,
-				32,
-				33
+				32
 			]
 		},
 		{
@@ -901,14 +901,14 @@
 			"sourceIndexes" : 
 			[
 				14,
-				15,
-				16
+				15
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
+				17,
 				18,
 				19,
 				20,
@@ -916,8 +916,7 @@
 				22,
 				23,
 				24,
-				25,
-				26
+				25
 			]
 		}
 	],
@@ -1017,11 +1016,6 @@
 		{
 			"backtrace" : 84,
 			"path" : "luffy.jpg",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 84,
-			"path" : "me.jpg",
 			"sourceGroupIndex" : 2
 		},
 		{
