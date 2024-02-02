@@ -4,7 +4,7 @@
  * Date Created: $current_date
  * Version: $Git_commit_hash
  * Repository: $branch_repo
- * Description: <Enter File Description>
+ * Description: This file runs the main program
  **********************************
  */
 
