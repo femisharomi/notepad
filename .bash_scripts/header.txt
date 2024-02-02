@@ -1,6 +1,0 @@
-/*
- *
- * Author: Femi Sharomi
- * Date:   $(date +"%Y-%m-%d")
- *
-*/
