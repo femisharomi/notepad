@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/QtQuickAppTute">
-    <file alias="qmldir">/Users/femi/Documents/GitHub/zero/QtQuick_Application_Tutorial/build-QtQuickAppTute-Qt_6_6_0_for_macOS-Debug/QtQuickAppTute/qmldir</file>
-  </qresource>
-</RCC>
-
