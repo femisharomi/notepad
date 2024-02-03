@@ -3,7 +3,7 @@
  * Author: $author_name
  * Date Created: $current_date
  * Repository: $branch_repo
- * Description: This file runs the main program for the simple qt app.
+ * Description: This file runs the main program for the simple qt-app.
  **********************************
  */
 
