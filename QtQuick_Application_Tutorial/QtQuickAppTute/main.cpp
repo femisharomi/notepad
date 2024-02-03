@@ -4,7 +4,7 @@
  * Date Created: $current_date
  * Version: $Git_commit_hash
  * Repository: $branch_repo
- * Description: This file runs the main program for the simple qt app.
+ * Description: This file runs the main program for the simple qt-app.
  **********************************
  */
 
