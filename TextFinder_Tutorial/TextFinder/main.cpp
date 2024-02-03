@@ -3,7 +3,7 @@
  * Author: Femi Sharomi
  * Date Created: 2024-02-03
  * Repository: develop
- * Description:
+ * Description: The main program running the application.
  **********************************
  */
 #include "textfinder.hpp"

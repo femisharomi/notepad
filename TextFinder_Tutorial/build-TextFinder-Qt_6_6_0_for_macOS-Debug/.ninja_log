@@ -1,0 +1,13 @@
+# ninja log v5
+4	145	0	/Users/femi/Documents/GitHub/zero/TextFinder_Tutorial/build-TextFinder-Qt_6_6_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs	9a2d810a945c9c1e
+5	1166	1706988723110670656	TextFinder_autogen/timestamp	a50bd22a4eb48e87
+5	1166	1706988723110670656	TextFinder_autogen/mocs_compilation.cpp	a50bd22a4eb48e87
+5	1166	1706988723110670656	/Users/femi/Documents/GitHub/zero/TextFinder_Tutorial/build-TextFinder-Qt_6_6_0_for_macOS-Debug/TextFinder_autogen/timestamp	a50bd22a4eb48e87
+5	1166	1706988723110670656	/Users/femi/Documents/GitHub/zero/TextFinder_Tutorial/build-TextFinder-Qt_6_6_0_for_macOS-Debug/TextFinder_autogen/mocs_compilation.cpp	a50bd22a4eb48e87
+1167	1259	1706988723242362532	TextFinder_autogen/EWIEGA46WW/qrc_textfinder.cpp	bc8ea21c3b26be9c
+1167	1259	1706988723242362532	/Users/femi/Documents/GitHub/zero/TextFinder_Tutorial/build-TextFinder-Qt_6_6_0_for_macOS-Debug/TextFinder_autogen/EWIEGA46WW/qrc_textfinder.cpp	bc8ea21c3b26be9c
+1264	2426	1706988724401802871	CMakeFiles/TextFinder.dir/TextFinder_autogen/EWIEGA46WW/qrc_textfinder.cpp.o	c092c1df388bf09a
+1260	6664	1706988728629056922	CMakeFiles/TextFinder.dir/TextFinder_autogen/mocs_compilation.cpp.o	46018236c96b904
+1261	6732	1706988728700888682	CMakeFiles/TextFinder.dir/main.cpp.o	a494bfd533c0bfac
+1263	7361	1706988729327372749	CMakeFiles/TextFinder.dir/textfinder.cpp.o	e79e299948569391
+7363	8562	1706988730521698242	TextFinder.app/Contents/MacOS/TextFinder	6e8f204183194c6f

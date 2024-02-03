@@ -69,13 +69,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 69,
+				"line" : 71,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 52,
+				"line" : 54,
 				"parent" : 0
 			},
 			{
@@ -290,7 +290,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				10
 			]
 		}
 	],
@@ -405,7 +406,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				10
 			]
 		},
 		{
@@ -413,7 +415,7 @@
 			"sourceIndexes" : 
 			[
 				3,
-				6
+				8
 			]
 		},
 		{
@@ -422,14 +424,17 @@
 			[
 				4,
 				5,
-				7
+				6,
+				7,
+				9
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				8
+				11,
+				12
 			]
 		}
 	],
@@ -470,6 +475,16 @@
 			"sourceGroupIndex" : 2
 		},
 		{
+			"backtrace" : 4,
+			"path" : "textfinder.qrc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "input.txt",
+			"sourceGroupIndex" : 2
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "/Users/femi/Documents/GitHub/zero/TextFinder_Tutorial/build-TextFinder-Qt_6_6_0_for_macOS-Debug/TextFinder_autogen/include/ui_textfinder.h",
@@ -483,8 +498,21 @@
 		},
 		{
 			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/femi/Documents/GitHub/zero/TextFinder_Tutorial/build-TextFinder-Qt_6_6_0_for_macOS-Debug/TextFinder_autogen/EWIEGA46WW/qrc_textfinder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "/Users/femi/Documents/GitHub/zero/TextFinder_Tutorial/build-TextFinder-Qt_6_6_0_for_macOS-Debug/TextFinder_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/femi/Documents/GitHub/zero/TextFinder_Tutorial/build-TextFinder-Qt_6_6_0_for_macOS-Debug/TextFinder_autogen/EWIEGA46WW/qrc_textfinder.cpp.rule",
 			"sourceGroupIndex" : 3
 		}
 	],

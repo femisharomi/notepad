@@ -143,6 +143,7 @@ endif()
 # _directory_contents at /Users/femi/Applications/Qt/6.6.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/femi/Documents/GitHub/zero/TextFinder_Tutorial/TextFinder/*.qrc")
 set(OLD_GLOB
+  "/Users/femi/Documents/GitHub/zero/TextFinder_Tutorial/TextFinder/textfinder.qrc"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
