@@ -3,7 +3,7 @@
  * Author: $author_name
  * Date Created: $current_date
  * Repository: $branch_repo
- * Description: This file is used to connect to the Qt GUI Functions:
+ * Description: This file is used to connect to the Qt GUI Functions]
  **********************************
  */
 
@@ -26,4 +26,5 @@ int main(int argc, char *argv[])
 
     return app.exec();
 }
+
 your_text_to_append
