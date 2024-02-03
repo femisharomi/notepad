@@ -1,0 +1,52 @@
+#!/bin/bash
+
+
+# Set GIT_DIR to point to the .git directory
+export GIT_DIR="$(git rev-parse --git-dir)"
+# Change to the root of the Git repository
+cd "$(git rev-parse --show-toplevel)" || exit 1
+
+# Get author name from the Git user name
+author_name=$(git config user.name)
+
+# Generate a formatted date string
+current_date=$(date +"%Y-%m-%d")
+
+# Get the current branch
+current_branch=$(git rev-parse --abbrev-ref HEAD)
+
+# Iterate through staged files
+while IFS= read -r file; do
+    # Check if the file has a supported extension
+    if [[ "$file" == *.cpp || "$file" == *.c || "$file" == *.h || "$file" == *.hpp ]]; then
+        # Check if the file already has the specified header
+        if grep -qE '\* Author:' "$file"; then
+            echo "Header already exists in $file. Skipping..."
+        else
+            # Create a temporary file
+            temp_file=$(mktemp)
+
+            # Echo the formatted header to the temporary file
+            echo "/*" > "$temp_file"
+            echo " **********************************" >> "$temp_file"
+            echo " * Author: $author_name" >> "$temp_file"
+            echo " * Date Created: $current_date" >> "$temp_file"
+            echo " * Repository: $current_branch" >> "$temp_file"
+            echo " * Description:" >> "$temp_file"
+            echo " **********************************" >> "$temp_file"
+            echo " */" >> "$temp_file"
+
+            # Append the rest of the file to the temporary file
+            cat "$file" >> "$temp_file"
+
+            # Move the temporary file to overwrite the original file
+            mv "$temp_file" "$file"
+
+            # Stage the modified file
+            git add "$file"
+        fi
+    fi
+done < <(git diff --cached --name-only)
+
+exit 0
+
