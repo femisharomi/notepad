@@ -1,3 +1,11 @@
+/*
+ **********************************
+ * Author: Femi Sharomi
+ * Date Created: 2024-02-03
+ * Repository: develop
+ * Description:
+ **********************************
+ */
 #define QT_CORE_LIB 1
 #define QT_GUI_LIB 1
 #define QT_NETWORK_LIB 1
