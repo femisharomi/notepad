@@ -24,7 +24,6 @@ This repository is a collection of diverse C++ projects designed to explore the 
 [Provide detailed steps on how to install your project. Include any configuration steps.]
 
 ## Pre-commit Hook
-[Explain the purpose of the pre-commit hook and provide step-by-step instructions on how users can set it up.]
 * Copy&paste the pre-commit file (it does not have a file ext) from templates/ to .git/hooks/ to ensure the correct file header is generated for each C/C++ file type committed back to the branch.
 * A hardcoded copy of the header template is also in the templates/ dir for manual use. 
 
