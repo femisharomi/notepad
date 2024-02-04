@@ -7,15 +7,7 @@
  **********************************
  */
 #include "textfinder.hpp"
-#include "./ui_textfinder.h"
-#include <QFile>
-#include <QTextStream>
 
-/*
- * Function Name: TextFinder(QWidget *parent)
- * Param: N/A
- * Description: Constructor
-*/
 TextFinder::TextFinder(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::TextFinder)
@@ -24,34 +16,90 @@ TextFinder::TextFinder(QWidget *parent)
     loadTextFile();
 }
 
-/*
- * Function Name: ~TextFinder()
- * Param: N/A
- * Description: Destructor
-*/
 TextFinder::~TextFinder()
 {
     delete ui;
 }
 
-/*
- * Function Name: on_findButton_clicked()
- * Param: N/A
- * Description: Function to run the search for a keyword once the find
- *              button has been clicked by a user
-*/
 void TextFinder::on_findButton_clicked()
 {
     QString searchString = ui->lineEdit->text();
+
+    // Clear the existing found positions
+    foundPositions.clear();
+
+    // Find occurrences of searchString in the textEdit
+    int count = 0;
+    QTextCursor cursor(ui->textEdit->document());
+
+    while (!cursor.isNull()) {
+        cursor = ui->textEdit->document()->find(searchString, cursor, QTextDocument::FindWholeWords);
+        if (!cursor.isNull()) {
+            count++;
+            // Store the position of the found occurrence
+            foundPositions.append(cursor);
+            cursor.movePosition(QTextCursor::NextWord);
+        }
+    }
+
+    // Update the count_lcd
+    ui->count_lcd->display(count);
+
+    // Highlight the occurrences in the textEdit
     ui->textEdit->find(searchString, QTextDocument::FindWholeWords);
 }
 
-/*
- * Function Name: loadTextFile()
- * Param: N/A
- * Description: Function to load in the file from a local txt file and
- *              display it in the ui box called: textEdit
-*/
+void TextFinder::on_nextButton_clicked()
+{
+    if (!foundPositions.isEmpty()) {
+        // Ensure currentPositionIndex is within bounds
+        if (currentPositionIndex >= 0 && currentPositionIndex < foundPositions.size()) {
+            // Move the cursor to the next found position
+            QTextCursor nextPosition = foundPositions[currentPositionIndex];
+            ui->textEdit->setTextCursor(nextPosition);
+
+            // Increment the current position index
+            currentPositionIndex++;
+
+            // Reset the current position index to the beginning if it reaches the end
+            if (currentPositionIndex == foundPositions.size()) {
+                currentPositionIndex = 0;
+            }
+        }
+    }
+}
+
+void TextFinder::on_backButton_clicked()
+{
+    if (!foundPositions.isEmpty()) {
+        // Ensure currentPositionIndex is within bounds
+        if (currentPositionIndex > 0 && currentPositionIndex <= foundPositions.size()) {
+            // Decrement the current position index
+            currentPositionIndex--;
+
+            // Move the cursor to the previous found position
+            QTextCursor previousPosition = foundPositions[currentPositionIndex];
+            ui->textEdit->setTextCursor(previousPosition);
+        } else {
+            // If currentPositionIndex is already at the beginning, wrap to the end
+            currentPositionIndex = foundPositions.size() - 1;
+
+            // Move the cursor to the last found position
+            QTextCursor lastPosition = foundPositions[currentPositionIndex];
+            ui->textEdit->setTextCursor(lastPosition);
+        }
+    }
+}
+
+void TextFinder::on_resetButton_clicked()
+{
+    // Close the current instance of the application
+    qApp->exit(0);
+
+    // Optionally, if you want to start a new instance, you can use QProcess
+    QProcess::startDetached(qApp->arguments()[0], qApp->arguments());
+}
+
 void TextFinder::loadTextFile()
 {
     QFile inputFile(":/input.txt");
@@ -65,4 +113,3 @@ void TextFinder::loadTextFile()
     QTextCursor cursor = ui->textEdit->textCursor();
     cursor.movePosition(QTextCursor::Start, QTextCursor::MoveAnchor, 1);
 }
-

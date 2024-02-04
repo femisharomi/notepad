@@ -88,6 +88,9 @@ TextFinder_autogen/timestamp: \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/stdio.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
+	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/QFile \
+	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/QProcess \
+	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/QTextStream \
 	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
 	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
 	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
@@ -120,6 +123,8 @@ TextFinder_autogen/timestamp: \
 	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
 	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
 	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
+	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/qfile.h \
+	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/qfiledevice.h \
 	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
 	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/qfloat16.h \
 	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/qforeach.h \
@@ -130,6 +135,7 @@ TextFinder_autogen/timestamp: \
 	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
 	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
 	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
+	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
 	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
 	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
 	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
@@ -153,6 +159,7 @@ TextFinder_autogen/timestamp: \
 	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/qoverload.h \
 	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/qpair.h \
 	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/qpoint.h \
+	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/qprocess.h \
 	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h \
 	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/qrect.h \
 	/Users/femi/Applications/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \

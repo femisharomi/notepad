@@ -1,7 +1,7 @@
 /*
  **********************************
  * Author: Femi Sharomi
- * Date Created: 2024-02-03
+ * Date Created: 2024-02-04
  * Repository: develop
  * Description:
  **********************************
@@ -20,6 +20,7 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QHBoxLayout>
+#include <QtWidgets/QLCDNumber>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
@@ -32,46 +33,83 @@ QT_BEGIN_NAMESPACE
 class Ui_TextFinder
 {
 public:
-    QWidget *widget;
+    QWidget *layoutWidget;
     QVBoxLayout *verticalLayout;
+    QHBoxLayout *horizontalLayout_2;
+    QLabel *matching_label;
+    QLCDNumber *count_lcd;
     QHBoxLayout *horizontalLayout;
-    QLabel *label;
+    QLabel *keyword_label;
     QLineEdit *lineEdit;
     QPushButton *findButton;
+    QPushButton *nextButton;
+    QPushButton *backButton;
+    QPushButton *resetButton;
     QTextEdit *textEdit;
 
     void setupUi(QWidget *TextFinder)
     {
         if (TextFinder->objectName().isEmpty())
             TextFinder->setObjectName("TextFinder");
-        TextFinder->resize(1004, 729);
-        widget = new QWidget(TextFinder);
-        widget->setObjectName("widget");
-        widget->setGeometry(QRect(250, 170, 260, 237));
-        verticalLayout = new QVBoxLayout(widget);
+        TextFinder->resize(1004, 754);
+        layoutWidget = new QWidget(TextFinder);
+        layoutWidget->setObjectName("layoutWidget");
+        layoutWidget->setGeometry(QRect(40, 30, 711, 681));
+        verticalLayout = new QVBoxLayout(layoutWidget);
         verticalLayout->setObjectName("verticalLayout");
         verticalLayout->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_2 = new QHBoxLayout();
+        horizontalLayout_2->setObjectName("horizontalLayout_2");
+        matching_label = new QLabel(layoutWidget);
+        matching_label->setObjectName("matching_label");
+
+        horizontalLayout_2->addWidget(matching_label);
+
+        count_lcd = new QLCDNumber(layoutWidget);
+        count_lcd->setObjectName("count_lcd");
+        count_lcd->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0);"));
+
+        horizontalLayout_2->addWidget(count_lcd);
+
+
+        verticalLayout->addLayout(horizontalLayout_2);
+
         horizontalLayout = new QHBoxLayout();
         horizontalLayout->setObjectName("horizontalLayout");
-        label = new QLabel(widget);
-        label->setObjectName("label");
+        keyword_label = new QLabel(layoutWidget);
+        keyword_label->setObjectName("keyword_label");
 
-        horizontalLayout->addWidget(label);
+        horizontalLayout->addWidget(keyword_label);
 
-        lineEdit = new QLineEdit(widget);
+        lineEdit = new QLineEdit(layoutWidget);
         lineEdit->setObjectName("lineEdit");
 
         horizontalLayout->addWidget(lineEdit);
 
-        findButton = new QPushButton(widget);
+        findButton = new QPushButton(layoutWidget);
         findButton->setObjectName("findButton");
 
         horizontalLayout->addWidget(findButton);
 
+        nextButton = new QPushButton(layoutWidget);
+        nextButton->setObjectName("nextButton");
+
+        horizontalLayout->addWidget(nextButton);
+
+        backButton = new QPushButton(layoutWidget);
+        backButton->setObjectName("backButton");
+
+        horizontalLayout->addWidget(backButton);
+
+        resetButton = new QPushButton(layoutWidget);
+        resetButton->setObjectName("resetButton");
+
+        horizontalLayout->addWidget(resetButton);
+
 
         verticalLayout->addLayout(horizontalLayout);
 
-        textEdit = new QTextEdit(widget);
+        textEdit = new QTextEdit(layoutWidget);
         textEdit->setObjectName("textEdit");
 
         verticalLayout->addWidget(textEdit);
@@ -85,8 +123,12 @@ public:
     void retranslateUi(QWidget *TextFinder)
     {
         TextFinder->setWindowTitle(QCoreApplication::translate("TextFinder", "TextFinder", nullptr));
-        label->setText(QCoreApplication::translate("TextFinder", "Keyword: ", nullptr));
+        matching_label->setText(QCoreApplication::translate("TextFinder", "Matching: ", nullptr));
+        keyword_label->setText(QCoreApplication::translate("TextFinder", "Keyword: ", nullptr));
         findButton->setText(QCoreApplication::translate("TextFinder", "Find", nullptr));
+        nextButton->setText(QCoreApplication::translate("TextFinder", "Next", nullptr));
+        backButton->setText(QCoreApplication::translate("TextFinder", "Back", nullptr));
+        resetButton->setText(QCoreApplication::translate("TextFinder", "Reset", nullptr));
     } // retranslateUi
 
 };
