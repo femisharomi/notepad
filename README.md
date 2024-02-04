@@ -37,7 +37,7 @@ This repository is a collection of diverse C++ projects designed to explore the 
   - **README and .gitignore:**
     - Essential documentation and version control settings at the repository level.
   - **Templates:**
-    - Centralized storage for reusable templates and assets applicable across projects.
+    - Centralized storage for reusable templates and assets applicable across projects or repositories.
 
 ### Organization Inside Each Project Folder
 - **`Project_Name`:**
