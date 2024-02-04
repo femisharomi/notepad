@@ -1,0 +1,15 @@
+Shakespeare:
+
+"To be, or not to be: that is the question." - Hamlet
+"All the world's a stage, and all the men and women merely players." - As You Like It
+"This above all: to thine own self be true." - Hamlet
+"The better part of Valour, is Discretion." - Henry IV, Part 1
+"The course of true love never did run smooth." - A Midsummer Night's Dream
+
+Leonardo da Vinci:
+
+"Simplicity is the ultimate sophistication."
+"Art is never finished, only abandoned."
+"Learning never exhausts the mind."
+"The noblest pleasure is the joy of understanding."
+"Nature is the source of all true knowledge."
