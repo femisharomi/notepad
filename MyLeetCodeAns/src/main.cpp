@@ -9,6 +9,7 @@
 #include <iostream>
 #include "two_sum_solution.hpp"
 #include "add_two_numbers_solution.hpp"
+#include "longest_substring_without_repeating_characters.hpp"
 
 int main(int argc, char *argv[])
 {
@@ -42,17 +43,20 @@ int main(int argc, char *argv[])
     }
     std::cout << "\n";
 
+
+    const std::string inputString = "pwwkew";
+    int res3 = 0;
+
+    res3 = longest_substring_without_repeating_chars_solution::lengthOfLongestSubstring(inputString);
+
+    std::cout << "Results for Longest Substring Without Repeating Characters is -> " << res3 << std::endl;
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	/*
-	 * 3. Longest Substring Without Repeating Characters
+	 * 4.Median of Two Sorted Arrays.
 	 */
-
-
-
-
-
 
 
 
