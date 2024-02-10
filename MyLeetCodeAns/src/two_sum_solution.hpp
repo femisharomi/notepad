@@ -3,7 +3,8 @@
  * Author: Femi Sharomi
  * Date Created: 2024-02-09
  * Repository: develop
- * Description:
+ * Description:Given an array of integers nums and an integer target, return indices of the two numbers
+ * 				such that they add up to target.
  **********************************
  */
 #ifndef TWO_SUM_SOLUTION_HPP

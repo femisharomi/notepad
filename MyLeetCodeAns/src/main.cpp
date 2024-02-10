@@ -10,6 +10,7 @@
 #include "two_sum_solution.hpp"
 #include "add_two_numbers_solution.hpp"
 #include "longest_substring_without_repeating_characters.hpp"
+#include "median_of_two_sorted_arrays.hpp"
 
 int main(int argc, char *argv[])
 {
@@ -57,7 +58,19 @@ int main(int argc, char *argv[])
 	/*
 	 * 4.Median of Two Sorted Arrays.
 	 */
+    std::vector<int> nums1 = {1,2};
+    std::vector<int> nums2 = {3,4};
+    std::vector<int> nums3 = {1,3};
+    std::vector<int> nums4 = {2};
 
+    double median1;
+    double median2;
+
+    median1 = median_of_two_sorted_arrays_solution::findMedianSortedArrays(nums1, nums2);
+    median2 = median_of_two_sorted_arrays_solution::findMedianSortedArrays(nums3, nums4);
+
+    std::cout << "Results for Median Of Two Sorted Arrays 1 -> " << median1 << std::endl;
+    std::cout << "Results for Median Of Two Sorted Arrays 2 -> " << median2 << std::endl;
 
 
 }
