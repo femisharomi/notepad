@@ -6,10 +6,6 @@
  * Description:
  **********************************
  */
-//You are given two non-empty linked lists representing two non-negative integers.
-//The digits are stored in reverse order,
-//and each of their nodes contains a single digit.
-//Add the two numbers and return the sum as a linked list.
 
 #ifndef ADD_TWO_NUMBERS_HPP
 #define ADD_TWO_NUMBERS_HPP
@@ -22,15 +18,34 @@ struct ListNode {
     ListNode(int x, ListNode *next) : val(x), next(next) {}
  };
 
-class Solution {
+class add_two_numbers_solution {
 public:
 
-	ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+	inline static ListNode *addTwoNumbers(ListNode *l1, ListNode *l2) {
 
-		ListNode* result = new ListNode(0);
+		ListNode *result = new ListNode(0);
+		ListNode *pointA = l1, *pointB = l2, *current = result;
+		int carry = 0;
 
+		while(pointA != nullptr || pointB  != nullptr)
+		{
+			int x = (pointA != nullptr) ? pointA->val : 0;
+			int y = (pointB != nullptr) ? pointB->val : 0;
+			int sum = x + y + carry;
 
-		return result;
+			carry = sum/10;
+			current->next = new ListNode(sum % 10);
+			current = current->next;
+
+			if(pointA != nullptr) pointA = pointA->next;
+			if(pointB != nullptr) pointB = pointB->next;
+		}
+
+		if (carry > 0) {
+			current->next = new ListNode(carry);
+		}
+
+		return result->next;
     }
 
 };
