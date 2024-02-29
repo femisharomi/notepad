@@ -1,5 +1,5 @@
-# Project Title
-Zero - The beginning 
+# Zero - The beginning 
+
 
 ## Overview
 This repository is a collection of diverse C++ projects designed to explore the intricacies of application development using the Qt Creator IDE and Qt Widgets. Ranging from terminal-based applications to mobile and desktop solutions, each project in this repository serves as a standalone learning experience. Whether you are a novice or an experienced developer, these projects cover various levels of expertise, offering insights into different aspects of C++ utilization.
