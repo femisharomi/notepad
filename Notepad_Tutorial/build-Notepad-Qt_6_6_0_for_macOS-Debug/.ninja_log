@@ -1,0 +1,9 @@
+# ninja log v5
+0	746	1709232622246808679	Notepad_autogen/timestamp	23a10d5bc46c6930
+0	746	1709232622246808679	Notepad_autogen/mocs_compilation.cpp	23a10d5bc46c6930
+0	746	1709232622246808679	/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug/Notepad_autogen/timestamp	23a10d5bc46c6930
+0	746	1709232622246808679	/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug/Notepad_autogen/mocs_compilation.cpp	23a10d5bc46c6930
+746	4680	1709232626194899882	CMakeFiles/Notepad.dir/Notepad_autogen/mocs_compilation.cpp.o	254d6004940bc837
+747	4696	1709232626194962770	CMakeFiles/Notepad.dir/main.cpp.o	6f6e12621f2084ba
+747	4742	1709232626257470139	CMakeFiles/Notepad.dir/notepad.cpp.o	bfcf8c04a5616dff
+4742	5214	1709232626739617798	Notepad.app/Contents/MacOS/Notepad	f17a407b135803a3
