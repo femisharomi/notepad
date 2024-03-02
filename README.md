@@ -8,7 +8,6 @@ Feel free to reach out if you have any questions or encounter issues.
 ## Table of Contents
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
-- [Installation](#installation)
 - [Pre-commit Hook](#pre-commit-hook)
 - [Folder Structure](#folder-structure)
 - [License](#license)
@@ -22,9 +21,6 @@ Feel free to reach out if you have any questions or encounter issues.
 - Ensure you have the latest version of Qt installed for Win or Mac: [https://www.qt.io/product/development-tools](https://www.qt.io/product/development-tools).
 - Current build folders contain the .app for MacOS.
   - If you're on Windows you will need to build and run the source code to create a Win build of the application.   
-
-## Installation
-[Provide detailed steps on how to install your project. Include any configuration steps.]
 
 ## Pre-commit Hook
 * Copy&paste the pre-commit file (it does not have a file ext) from templates/ to .git/hooks/ to ensure the correct file header is generated for each C/C++ file type committed back to the branch.
