@@ -34,13 +34,13 @@
     <property name="title">
      <string>File</string>
     </property>
-    <addaction name="newDocument"/>
-    <addaction name="openDocument"/>
+    <addaction name="actionNewDocument"/>
+    <addaction name="actionOpenDocument"/>
     <addaction name="separator"/>
-    <addaction name="saveDocument"/>
-    <addaction name="saveAsDocument"/>
+    <addaction name="actionSaveDocument"/>
+    <addaction name="actionSaveAsDocument"/>
     <addaction name="separator"/>
-    <addaction name="printDocument"/>
+    <addaction name="actionPrintDocument"/>
     <addaction name="separator"/>
     <addaction name="actionExit"/>
    </widget>
@@ -69,7 +69,7 @@
    <addaction name="menuEdit"/>
    <addaction name="menuAbout"/>
   </widget>
-  <action name="newDocument">
+  <action name="actionNewDocument">
    <property name="icon">
     <iconset theme="document-new"/>
    </property>
@@ -83,22 +83,25 @@
     <bool>false</bool>
    </property>
   </action>
-  <action name="openDocument">
+  <action name="actionOpenDocument">
+   <property name="icon">
+    <iconset theme="document-open"/>
+   </property>
    <property name="text">
     <string>Open</string>
    </property>
   </action>
-  <action name="saveDocument">
+  <action name="actionSaveDocument">
    <property name="text">
     <string>Save</string>
    </property>
   </action>
-  <action name="saveAsDocument">
+  <action name="actionSaveAsDocument">
    <property name="text">
     <string>Save as</string>
    </property>
   </action>
-  <action name="printDocument">
+  <action name="actionPrintDocument">
    <property name="text">
     <string>Print</string>
    </property>
