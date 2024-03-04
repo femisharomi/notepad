@@ -1,7 +1,7 @@
-# Zero - The beginning 
+# Notepad
 
 ## Overview
-This repository is a collection of diverse C++ projects designed to explore the intricacies of application development using the Qt Creator IDE and Qt Widgets. Ranging from terminal-based applications to mobile and desktop solutions, each project in this repository serves as a standalone learning experience. Whether you are a novice or an experienced developer, these projects cover various levels of expertise, offering insights into different aspects of C++ utilization.
+A straightforward Notepad application using C++ and the Qt Widgets module. This small text editor enables you to create, save, print, reopen, and edit text files. Customize your experience by setting the preferred font for a personalized touch.
 
 Feel free to reach out if you have any questions or encounter issues.
 
@@ -27,15 +27,6 @@ Feel free to reach out if you have any questions or encounter issues.
 * A hardcoded copy of the header template is also in the templates/ dir for manual use. 
 
 ## Folder Structure
-- **Zero (Top Level):**
-  - **Projects:**
-    - Each project resides in its own folder at the top level, encapsulating its unique application development focus.
-  - **README and .gitignore:**
-    - Essential documentation and version control settings at the repository level.
-  - **Templates:**
-    - Centralized storage for reusable templates and assets applicable across projects or repositories.
-
-### Organization Inside Each Project Folder
 - **`Project_Name`:**
   - Folder named after the project.
   - Contains all files necessary for building the project.
@@ -47,15 +38,11 @@ Feel free to reach out if you have any questions or encounter issues.
     - Contains the project along with debug configurations.
     - Useful for quick testing, but developers are encouraged to create personalized configurations for release builds.
 
-This structure facilitates efficient navigation, ensuring that developers can seamlessly explore various C++ application scenarios. The inclusion of project-specific details and configurations empowers users to delve into specific projects and tailor their learning experience. The centralized Templates folder further enhances reusability and consistency across the entire repository.
-
 ## License
-This project is open-source and licensed under the [GNU Lesser General Public License v3.0](https://opensource.org/licenses/LGPL-3.0).
-
-### Qt Framework License
-This project may use the Qt framework, which is licensed under the [Qt Commercial License](https://www.qt.io/licensing). Please refer to the respective licenses for more details.
+- This project is open-source and licensed under the [GNU Lesser General Public License v3.0](https://opensource.org/licenses/LGPL-3.0).
+- This project may use the Qt framework, which is licensed under the [Qt Commercial License](https://www.qt.io/licensing). Please refer to the respective licenses for more details.
 
 ### Author
 - [Femi Sharomi](https://github.com/femisharomi)
   
-©2024 FemiSharomi & DeezLM. 
+©2024 FemiSharomi

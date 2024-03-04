@@ -3,7 +3,7 @@
  * Author: Femi Sharomi
  * Date Created: 2024-02-29
  * Repository: develop
- * Description:
+ * Description: The header file of the notepad class for the Notepad Widget
  **********************************
  */
 #ifndef NOTEPAD_HPP
@@ -27,5 +27,6 @@ public:
 
 private:
     Ui::Notepad *ui;
+    QString currentFile;
 };
 #endif // NOTEPAD_HPP

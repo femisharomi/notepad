@@ -3,7 +3,7 @@
  * Author: Femi Sharomi
  * Date Created: 2024-02-29
  * Repository: develop
- * Description:
+ * Description: The main source file for the application
  **********************************
  */
 #include "notepad.hpp"
