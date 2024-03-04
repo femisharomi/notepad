@@ -1,4 +1,4 @@
-# Install script for directory: /Users/femi/Documents/GitHub/zero/Notepad_Tutorial/Notepad
+# Install script for directory: /Users/femi/Documents/GitHub/notepad/notepad
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,13 +38,13 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug/Notepad.app" USE_SOURCE_PERMISSIONS)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./Notepad.app/Contents/MacOS/Notepad" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./Notepad.app/Contents/MacOS/Notepad")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug/notepad.app" USE_SOURCE_PERMISSIONS)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./notepad.app/Contents/MacOS/notepad" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./notepad.app/Contents/MacOS/notepad")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/Users/femi/Applications/Qt/6.6.0/macos/lib"
       -add_rpath "@executable_path/../Frameworks"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./Notepad.app/Contents/MacOS/Notepad")
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./notepad.app/Contents/MacOS/notepad")
   endif()
 endif()
 
@@ -56,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

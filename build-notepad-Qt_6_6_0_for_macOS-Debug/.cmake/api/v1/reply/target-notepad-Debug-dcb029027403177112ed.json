@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Notepad.app/Contents/MacOS/Notepad"
+			"path" : "notepad.app/Contents/MacOS/notepad"
 		}
 	],
 	"backtrace" : 4,
@@ -248,7 +248,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug/Notepad_autogen/include"
+					"path" : "/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug/notepad_autogen/include"
 				},
 				{
 					"backtrace" : 14,
@@ -297,14 +297,14 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "Notepad_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"id" : "notepad_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 0,
-			"id" : "Notepad_autogen::@6890427a1f51a3e7e1df"
+			"id" : "notepad_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "Notepad::@6890427a1f51a3e7e1df",
+	"id" : "notepad::@6890427a1f51a3e7e1df",
 	"install" : 
 	{
 		"destinations" : 
@@ -390,8 +390,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Notepad",
-	"nameOnDisk" : "Notepad",
+	"name" : "notepad",
+	"nameOnDisk" : "notepad",
 	"paths" : 
 	{
 		"build" : ".",
@@ -438,7 +438,7 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug/Notepad_autogen/mocs_compilation.cpp",
+			"path" : "/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug/notepad_autogen/mocs_compilation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -466,19 +466,19 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug/Notepad_autogen/include/ui_notepad.h",
+			"path" : "/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug/notepad_autogen/include/ui_notepad.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug/Notepad_autogen/timestamp",
+			"path" : "/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug/notepad_autogen/timestamp",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug/Notepad_autogen/timestamp.rule",
+			"path" : "/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug/notepad_autogen/timestamp.rule",
 			"sourceGroupIndex" : 3
 		}
 	],

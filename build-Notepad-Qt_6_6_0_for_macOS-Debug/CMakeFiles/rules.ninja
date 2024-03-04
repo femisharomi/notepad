@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: Notepad
+# Project: notepad
 # Configurations: Debug
 # =============================================================================
 # =============================================================================
@@ -14,7 +14,7 @@
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__Notepad_unscanned_Debug
+rule CXX_COMPILER__notepad_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -24,7 +24,7 @@ rule CXX_COMPILER__Notepad_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__Notepad_Debug
+rule CXX_EXECUTABLE_LINKER__notepad_Debug
   command = $PRE_LINK && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Users/femi/Applications/Qt/Tools/CMake/CMake.app/Contents/bin/cmake --regenerate-during-build -S/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/Notepad -B/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug
+  command = /Users/femi/Applications/Qt/Tools/CMake/CMake.app/Contents/bin/cmake --regenerate-during-build -S/Users/femi/Documents/GitHub/notepad/notepad -B/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug
   description = Re-running CMake...
   generator = 1
 

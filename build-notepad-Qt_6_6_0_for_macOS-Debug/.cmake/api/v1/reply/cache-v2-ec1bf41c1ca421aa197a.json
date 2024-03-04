@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug"
+			"value" : "/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -431,7 +431,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -503,7 +503,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/Notepad"
+			"value" : "/Users/femi/Documents/GitHub/notepad/notepad"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1055,7 +1055,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug/.qtc/package-manager/auto-setup.cmake"
+			"value" : "/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug/.qtc/package-manager/auto-setup.cmake"
 		},
 		{
 			"name" : "CMAKE_PROJECT_NAME",
@@ -1067,7 +1067,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Notepad"
+			"value" : "notepad"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",
@@ -1496,42 +1496,6 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "/Users/femi/Applications/Qt/6.6.0/macos/bin/macdeployqt"
-		},
-		{
-			"name" : "Notepad_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug"
-		},
-		{
-			"name" : "Notepad_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "Notepad_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/Notepad"
 		},
 		{
 			"name" : "OPENGL_INCLUDE_DIR",
@@ -6140,6 +6104,42 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "/usr/local"
+		},
+		{
+			"name" : "notepad_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug"
+		},
+		{
+			"name" : "notepad_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "notepad_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/femi/Documents/GitHub/notepad/notepad"
 		}
 	],
 	"kind" : "cache",

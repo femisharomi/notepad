@@ -1,11 +1,3 @@
-/*
- **********************************
- * Author: Femi Sharomi
- * Date Created: 2024-03-04
- * Repository: develop
- * Description:
- **********************************
- */
 /********************************************************************************
 ** Form generated from reading UI file 'notepad.ui'
 **
@@ -33,15 +25,15 @@ QT_BEGIN_NAMESPACE
 class Ui_Notepad
 {
 public:
-    QAction *actionNew;
-    QAction *actionOpen;
-    QAction *actionSave;
-    QAction *actionSave_as;
-    QAction *actionPrint;
+    QAction *newDocument;
+    QAction *openDocument;
+    QAction *saveDocument;
+    QAction *saveAsDocument;
+    QAction *printDocument;
     QAction *actionExit;
     QAction *actionUndo;
     QAction *actionRedo;
-    QAction *actioncUT;
+    QAction *actionCut;
     QAction *actionCopy;
     QAction *actionPaste;
     QAction *actionDelete;
@@ -62,24 +54,27 @@ public:
         if (Notepad->objectName().isEmpty())
             Notepad->setObjectName("Notepad");
         Notepad->resize(1090, 730);
-        actionNew = new QAction(Notepad);
-        actionNew->setObjectName("actionNew");
-        actionOpen = new QAction(Notepad);
-        actionOpen->setObjectName("actionOpen");
-        actionSave = new QAction(Notepad);
-        actionSave->setObjectName("actionSave");
-        actionSave_as = new QAction(Notepad);
-        actionSave_as->setObjectName("actionSave_as");
-        actionPrint = new QAction(Notepad);
-        actionPrint->setObjectName("actionPrint");
+        newDocument = new QAction(Notepad);
+        newDocument->setObjectName("newDocument");
+        QIcon icon(QIcon::fromTheme(QString::fromUtf8("document-new")));
+        newDocument->setIcon(icon);
+        newDocument->setIconVisibleInMenu(false);
+        openDocument = new QAction(Notepad);
+        openDocument->setObjectName("openDocument");
+        saveDocument = new QAction(Notepad);
+        saveDocument->setObjectName("saveDocument");
+        saveAsDocument = new QAction(Notepad);
+        saveAsDocument->setObjectName("saveAsDocument");
+        printDocument = new QAction(Notepad);
+        printDocument->setObjectName("printDocument");
         actionExit = new QAction(Notepad);
         actionExit->setObjectName("actionExit");
         actionUndo = new QAction(Notepad);
         actionUndo->setObjectName("actionUndo");
         actionRedo = new QAction(Notepad);
         actionRedo->setObjectName("actionRedo");
-        actioncUT = new QAction(Notepad);
-        actioncUT->setObjectName("actioncUT");
+        actionCut = new QAction(Notepad);
+        actionCut->setObjectName("actionCut");
         actionCopy = new QAction(Notepad);
         actionCopy->setObjectName("actionCopy");
         actionPaste = new QAction(Notepad);
@@ -119,19 +114,19 @@ public:
         menubar->addAction(menuFile->menuAction());
         menubar->addAction(menuEdit->menuAction());
         menubar->addAction(menuAbout->menuAction());
-        menuFile->addAction(actionNew);
-        menuFile->addAction(actionOpen);
+        menuFile->addAction(newDocument);
+        menuFile->addAction(openDocument);
         menuFile->addSeparator();
-        menuFile->addAction(actionSave);
-        menuFile->addAction(actionSave_as);
+        menuFile->addAction(saveDocument);
+        menuFile->addAction(saveAsDocument);
         menuFile->addSeparator();
-        menuFile->addAction(actionPrint);
+        menuFile->addAction(printDocument);
         menuFile->addSeparator();
         menuFile->addAction(actionExit);
         menuEdit->addAction(actionUndo);
         menuEdit->addAction(actionRedo);
         menuEdit->addSeparator();
-        menuEdit->addAction(actioncUT);
+        menuEdit->addAction(actionCut);
         menuEdit->addAction(actionCopy);
         menuEdit->addAction(actionPaste);
         menuEdit->addAction(actionDelete);
@@ -149,15 +144,18 @@ public:
     void retranslateUi(QMainWindow *Notepad)
     {
         Notepad->setWindowTitle(QCoreApplication::translate("Notepad", "Notepad", nullptr));
-        actionNew->setText(QCoreApplication::translate("Notepad", "New", nullptr));
-        actionOpen->setText(QCoreApplication::translate("Notepad", "Open", nullptr));
-        actionSave->setText(QCoreApplication::translate("Notepad", "Save", nullptr));
-        actionSave_as->setText(QCoreApplication::translate("Notepad", "Save as", nullptr));
-        actionPrint->setText(QCoreApplication::translate("Notepad", "Print", nullptr));
+        newDocument->setText(QCoreApplication::translate("Notepad", "New", nullptr));
+#if QT_CONFIG(shortcut)
+        newDocument->setShortcut(QCoreApplication::translate("Notepad", "Ctrl+N", nullptr));
+#endif // QT_CONFIG(shortcut)
+        openDocument->setText(QCoreApplication::translate("Notepad", "Open", nullptr));
+        saveDocument->setText(QCoreApplication::translate("Notepad", "Save", nullptr));
+        saveAsDocument->setText(QCoreApplication::translate("Notepad", "Save as", nullptr));
+        printDocument->setText(QCoreApplication::translate("Notepad", "Print", nullptr));
         actionExit->setText(QCoreApplication::translate("Notepad", "Exit", nullptr));
         actionUndo->setText(QCoreApplication::translate("Notepad", "Undo", nullptr));
         actionRedo->setText(QCoreApplication::translate("Notepad", "Redo", nullptr));
-        actioncUT->setText(QCoreApplication::translate("Notepad", "Cut", nullptr));
+        actionCut->setText(QCoreApplication::translate("Notepad", "Cut", nullptr));
         actionCopy->setText(QCoreApplication::translate("Notepad", "Copy", nullptr));
         actionPaste->setText(QCoreApplication::translate("Notepad", "Paste", nullptr));
         actionDelete->setText(QCoreApplication::translate("Notepad", "Delete", nullptr));

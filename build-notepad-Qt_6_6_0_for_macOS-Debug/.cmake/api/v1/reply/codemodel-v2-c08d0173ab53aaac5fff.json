@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-94162784029d76b5d013.json",
+					"jsonFile" : "directory-.-Debug-2a3e1b28fc9c29683a13.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -30,7 +30,7 @@
 					[
 						0
 					],
-					"name" : "Notepad",
+					"name" : "notepad",
 					"targetIndexes" : 
 					[
 						0,
@@ -43,23 +43,23 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Notepad::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Notepad-Debug-0356bea08ae3647e00e3.json",
-					"name" : "Notepad",
+					"id" : "notepad::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-notepad-Debug-dcb029027403177112ed.json",
+					"name" : "notepad",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "Notepad_autogen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Notepad_autogen-Debug-ef56d0d63f3189a68ef5.json",
-					"name" : "Notepad_autogen",
+					"id" : "notepad_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-notepad_autogen-Debug-dcf69b888083239ffca8.json",
+					"name" : "notepad_autogen",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "Notepad_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Notepad_autogen_timestamp_deps-Debug-2b696afc985c70379804.json",
-					"name" : "Notepad_autogen_timestamp_deps",
+					"id" : "notepad_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-notepad_autogen_timestamp_deps-Debug-1391126e0cdfb84c070a.json",
+					"name" : "notepad_autogen_timestamp_deps",
 					"projectIndex" : 0
 				}
 			]
@@ -68,8 +68,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug",
-		"source" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/Notepad"
+		"build" : "/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug",
+		"source" : "/Users/femi/Documents/GitHub/notepad/notepad"
 	},
 	"version" : 
 	{

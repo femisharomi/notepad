@@ -1,4 +1,4 @@
-Notepad_autogen/timestamp: \
+notepad_autogen/timestamp: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
@@ -487,12 +487,12 @@ Notepad_autogen/timestamp: \
   /Users/femi/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake \
   /Users/femi/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Platform/Darwin.cmake \
   /Users/femi/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Platform/UnixPaths.cmake \
-  /Users/femi/Documents/GitHub/zero/Notepad_Tutorial/Notepad/CMakeLists.txt \
-  /Users/femi/Documents/GitHub/zero/Notepad_Tutorial/Notepad/main.cpp \
-  /Users/femi/Documents/GitHub/zero/Notepad_Tutorial/Notepad/notepad.cpp \
-  /Users/femi/Documents/GitHub/zero/Notepad_Tutorial/Notepad/notepad.hpp \
-  /Users/femi/Documents/GitHub/zero/Notepad_Tutorial/Notepad/notepad.ui \
   .qtc/package-manager/auto-setup.cmake \
   CMakeFiles/3.27.7/CMakeCXXCompiler.cmake \
   CMakeFiles/3.27.7/CMakeSystem.cmake \
-  Notepad_autogen/moc_predefs.h
+  notepad_autogen/moc_predefs.h \
+  /Users/femi/Documents/GitHub/notepad/notepad/CMakeLists.txt \
+  /Users/femi/Documents/GitHub/notepad/notepad/main.cpp \
+  /Users/femi/Documents/GitHub/notepad/notepad/notepad.cpp \
+  /Users/femi/Documents/GitHub/notepad/notepad/notepad.hpp \
+  /Users/femi/Documents/GitHub/notepad/notepad/notepad.ui

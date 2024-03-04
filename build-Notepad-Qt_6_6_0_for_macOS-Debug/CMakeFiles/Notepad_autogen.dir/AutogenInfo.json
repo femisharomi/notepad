@@ -1,16 +1,16 @@
 {
-	"BUILD_DIR" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug/Notepad_autogen",
-	"CMAKE_BINARY_DIR" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/Notepad",
+	"BUILD_DIR" : "/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug/notepad_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/femi/Documents/GitHub/notepad/notepad",
 	"CMAKE_EXECUTABLE" : "/Users/femi/Applications/Qt/Tools/CMake/CMake.app/Contents/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/Notepad/CMakeLists.txt",
-		"/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug/.qtc/package-manager/auto-setup.cmake",
+		"/Users/femi/Documents/GitHub/notepad/notepad/CMakeLists.txt",
+		"/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug/.qtc/package-manager/auto-setup.cmake",
 		"/Users/femi/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake",
 		"/Users/femi/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeSystem.cmake.in",
-		"/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug/CMakeFiles/3.27.7/CMakeSystem.cmake",
+		"/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug/CMakeFiles/3.27.7/CMakeSystem.cmake",
 		"/Users/femi/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeNinjaFindMake.cmake",
 		"/Users/femi/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/Users/femi/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake",
@@ -101,7 +101,7 @@
 		"/Users/femi/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
 		"/Users/femi/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeFindBinUtils.cmake",
 		"/Users/femi/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCXXCompiler.cmake.in",
-		"/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake",
+		"/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake",
 		"/Users/femi/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake",
 		"/Users/femi/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeGenericSystem.cmake",
 		"/Users/femi/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake",
@@ -129,7 +129,7 @@
 		"/Users/femi/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake",
 		"/Users/femi/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake",
 		"/Users/femi/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCXXCompiler.cmake.in",
-		"/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake",
+		"/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake",
 		"/Users/femi/Applications/Qt/6.6.0/macos/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"/Users/femi/Applications/Qt/6.6.0/macos/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"/Users/femi/Applications/Qt/6.6.0/macos/lib/cmake/Qt6/Qt6Config.cmake",
@@ -383,21 +383,21 @@
 		"/Users/femi/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/GNUInstallDirs.cmake",
 		"/Users/femi/Applications/Qt/6.6.0/macos/lib/cmake/Qt6/macos/Info.plist.app.in"
 	],
-	"CMAKE_SOURCE_DIR" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/Notepad",
-	"DEP_FILE" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug/Notepad_autogen/deps",
-	"DEP_FILE_RULE_NAME" : "Notepad_autogen/timestamp",
+	"CMAKE_SOURCE_DIR" : "/Users/femi/Documents/GitHub/notepad/notepad",
+	"DEP_FILE" : "/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug/notepad_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "notepad_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/Notepad/notepad.hpp",
+			"/Users/femi/Documents/GitHub/notepad/notepad/notepad.hpp",
 			"MU",
 			"EWIEGA46WW/moc_notepad.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug/Notepad_autogen/include",
-	"MOC_COMPILATION_FILE" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug/Notepad_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug/notepad_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug/notepad_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -438,26 +438,22 @@
 		"-c",
 		"/Users/femi/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug/Notepad_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug/notepad_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
-	"PARSE_CACHE_FILE" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug/CMakeFiles/Notepad_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug/CMakeFiles/notepad_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/Users/femi/Applications/Qt/6.6.0/macos/./libexec/moc",
 	"QT_UIC_EXECUTABLE" : "/Users/femi/Applications/Qt/6.6.0/macos/./libexec/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 6,
-	"SETTINGS_FILE" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug/CMakeFiles/Notepad_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug/CMakeFiles/notepad_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/Users/femi/Documents/GitHub/notepad/notepad/main.cpp", "MU", null ],
 		[
-			"/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/Notepad/main.cpp",
-			"MU",
-			null
-		],
-		[
-			"/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/Notepad/notepad.cpp",
+			"/Users/femi/Documents/GitHub/notepad/notepad/notepad.cpp",
 			"MU",
 			null
 		]

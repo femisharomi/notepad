@@ -1,11 +1,3 @@
-/*
- **********************************
- * Author: Femi Sharomi
- * Date Created: 2024-03-04
- * Repository: develop
- * Description:
- **********************************
- */
 /****************************************************************************
 ** Meta object code from reading C++ file 'notepad.hpp'
 **
@@ -14,7 +6,7 @@
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../Notepad/notepad.hpp"
+#include "../../../notepad/notepad.hpp"
 #include <QtCore/qmetatype.h>
 
 #if __has_include(<QtCore/qtmochelpers.h>)

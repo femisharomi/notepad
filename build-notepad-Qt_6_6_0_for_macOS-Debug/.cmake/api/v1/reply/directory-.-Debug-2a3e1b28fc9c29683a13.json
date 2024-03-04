@@ -31,11 +31,11 @@
 			"paths" : 
 			[
 				{
-					"from" : "Notepad.app",
-					"to" : "Notepad.app/Contents/MacOS/Notepad"
+					"from" : "notepad.app",
+					"to" : "notepad.app/Contents/MacOS/notepad"
 				}
 			],
-			"targetId" : "Notepad::@6890427a1f51a3e7e1df",
+			"targetId" : "notepad::@6890427a1f51a3e7e1df",
 			"targetIndex" : 0,
 			"type" : "target"
 		}

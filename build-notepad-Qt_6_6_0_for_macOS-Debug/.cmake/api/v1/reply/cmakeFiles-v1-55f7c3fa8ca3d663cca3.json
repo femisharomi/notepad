@@ -6,7 +6,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug/.qtc/package-manager/auto-setup.cmake"
+			"path" : "/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug/.qtc/package-manager/auto-setup.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -20,7 +20,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug/CMakeFiles/3.27.7/CMakeSystem.cmake"
+			"path" : "/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug/CMakeFiles/3.27.7/CMakeSystem.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -474,7 +474,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake"
+			"path" : "/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -613,7 +613,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake"
+			"path" : "/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1678,14 +1678,14 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug/.qt/info_plist/Notepad/Info.plist"
+			"path" : "/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug/.qt/info_plist/notepad/Info.plist"
 		}
 	],
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/build-Notepad-Qt_6_6_0_for_macOS-Debug",
-		"source" : "/Users/femi/Documents/GitHub/zero/Notepad_Tutorial/Notepad"
+		"build" : "/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Debug",
+		"source" : "/Users/femi/Documents/GitHub/notepad/notepad"
 	},
 	"version" : 
 	{
