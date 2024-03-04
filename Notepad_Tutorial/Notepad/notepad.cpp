@@ -3,7 +3,7 @@
  * Author: Femi Sharomi
  * Date Created: 2024-02-29
  * Repository: develop
- * Description:
+ * Description: The source file of the notepad class of the Notepad Widget
  **********************************
  */
 #include "notepad.hpp"
@@ -20,3 +20,4 @@ Notepad::~Notepad()
 {
     delete ui;
 }
+
