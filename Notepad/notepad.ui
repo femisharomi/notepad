@@ -56,7 +56,6 @@
     <addaction name="actionPaste"/>
     <addaction name="actionDelete"/>
     <addaction name="separator"/>
-    <addaction name="actionEmoji_Symbols"/>
    </widget>
    <widget class="QMenu" name="menuAbout">
     <property name="title">
@@ -137,11 +136,6 @@
   <action name="actionDelete">
    <property name="text">
     <string>Delete</string>
-   </property>
-  </action>
-  <action name="actionEmoji_Symbols">
-   <property name="text">
-    <string>Emoji and Symbols</string>
    </property>
   </action>
   <action name="actionSystem_Info">
