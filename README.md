@@ -23,7 +23,7 @@ Feel free to reach out if you have any questions or encounter issues.
   - If you're on Windows you will need to build and run the source code to create a Win build of the application.   
 
 ## Pre-commit Hook
-* Copy&paste the pre-commit file (it does not have a file ext) from templates/ to .git/hooks/ to ensure the correct file header is generated for each C/C++ file type committed back to the branch.
+* Copy & paste the pre-commit file (it does not have a file ext) from templates/ to .git/hooks/ to ensure the correct file header is generated for each C/C++ file type committed back to the branch.
 * A hardcoded copy of the header template is also in the templates/ dir for manual use. 
 
 ## Folder Structure
@@ -33,8 +33,8 @@ Feel free to reach out if you have any questions or encounter issues.
   - **`CMakeLists.txt`:**
     - CMake configuration file for project building and management.
     - Used to build the entire application, assuming all prerequisites are installed.
-- ** '.gitignore': **
-    = The .gitignore file is currently setup to block the debug folder from being tracked by Git. If removed then the following debug folder will be added to branch.
+- **'.gitignore':**
+    - The .gitignore file is currently set up to block the debug folder from being tracked by Git. If removed then the following debug folder will be added to branch.
     - ***`build_Project_Name_Debug`:***
         - Folder with the syntax `build_Project_Name_Debug`.
 	- Contains the project along with debug configurations.
