@@ -43,8 +43,9 @@ Feel free to reach out if you have any questions or encounter issues.
 ## License
 - This project is open-source and licensed under the [GNU Lesser General Public License v3.0](https://opensource.org/licenses/LGPL-3.0).
 - This project may use the Qt framework, which is licensed under the [Qt Commercial License](https://www.qt.io/licensing). Please refer to the respective licenses for more details.
+- This project uses icons from icons8 licenced under the [Icons8 licence](https://www.icons8.com/licence)
 
 ### Author
 - [Femi Sharomi](https://github.com/femisharomi)
   
-©2024 FemiSharomi
+©2024 FemiSharomi. Icons by Icons8

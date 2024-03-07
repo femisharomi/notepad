@@ -11,6 +11,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
+find_package(Qt6
+    REQUIRED COMPONENTS Core Gui Widgets
+    OPTIONAL_COMPONENTS PrintSupport
+)
 
 set(PROJECT_SOURCES
         main.cpp
@@ -57,6 +61,33 @@ set_target_properties(notepad PROPERTIES
     MACOSX_BUNDLE TRUE
     WIN32_EXECUTABLE TRUE
 )
+
+#resources
+set(notepad_icon_files
+    "images/bold.png"
+    "images/copy.png"
+    "images/cut.png"
+    "images/delete.png"
+    "images/exit.png"
+    "images/font.png"
+    "images/info.png"
+    "images/italic.png"
+    "images/new.png"
+    "images/open.png"
+    "images/paste.png"
+    "images/print.png"
+    "images/redo.png"
+    "images/save.png"
+    "images/saveAs.png"
+    "images/underline.png"
+    "images/undo.png")
+
+qt_add_resources(notepad "notepad"
+    PREFIX
+        "/"
+    FILES
+        ${notepad_icon_files}
+    )
 
 include(GNUInstallDirs)
 install(TARGETS notepad
