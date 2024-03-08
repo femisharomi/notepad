@@ -66,6 +66,12 @@ private slots:
 
     void updateWindowTitle();
 
+    void updateLastSavedText(const QString &txt);
+
+    void resetFormatting();
+
+    void on_actionLight_Dark_Mode_triggered();
+
 private:
     Ui::Notepad *ui;
     QString currentFile;
@@ -73,6 +79,8 @@ private:
     bool isTextModified = false;
     bool isTextSaved = false;
     const QChar unsavedCheck = '*';
+    QString lastSavedText;
+    QDateTime currentDateTime;
 
 protected:
     void closeEvent(QCloseEvent *event) override;

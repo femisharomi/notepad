@@ -62,6 +62,11 @@ set_target_properties(notepad PROPERTIES
     WIN32_EXECUTABLE TRUE
 )
 
+
+set(app_icon_macos "${CMAKE_CURRENT_SOURCE_DIR}/images/notepad_logo.icns")
+set_source_files_properties(${app_icon_macos} PROPERTIES MACOSX_PACKAGE_LOCATION "Resources")
+set(MACOSX_BUNDLE_ICON_FILE notepad_logo.icns)
+
 #resources
 set(notepad_icon_files
     "images/bold.png"
@@ -80,7 +85,10 @@ set(notepad_icon_files
     "images/save.png"
     "images/saveAs.png"
     "images/underline.png"
-    "images/undo.png")
+    "images/undo.png"
+    "images/notepad_logo.png"
+    "images/notepad_logo.icns"
+    "images/light_dark_mode.png")
 
 qt_add_resources(notepad "notepad"
     PREFIX

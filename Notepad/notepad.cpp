@@ -19,6 +19,7 @@ Notepad::Notepad(QWidget *parent)
     connect(ui->actionUnderline, &QAction::triggered, this, &Notepad::on_actionUnderline_triggered);
     connect(ui->actionItalic, &QAction::triggered, this, &Notepad::on_actionItalic_triggered);
 
+     //Can be used as a signal or method so ignore warning on this line
     connect(this, &QMainWindow::close, this, &Notepad::on_actionExit_triggered);
 }
 
@@ -29,6 +30,25 @@ Notepad::~Notepad()
 
 void Notepad::on_actionNewDocument_triggered()
 {
+    if(isTextModified)
+    {
+        // Check if saveAs was canceled and the file is still unsaved
+        if (currFilename.isEmpty() || currFilename.at(currFilename.length() - 1) == unsavedCheck) {
+            // Ask the user if they want to close the window without saving
+            QMessageBox::StandardButton reply = QMessageBox::question(this,
+                                                                      "Unsaved Changes",
+                                                                      "Do you want to create a new document without saving?",
+                                                                      QMessageBox::Yes | QMessageBox::No);
+
+            // User chose not to close without saving
+            if (reply == QMessageBox::No)
+            {
+                Notepad::on_actionSaveAsDocument_triggered();
+                return;
+            }
+        }
+    }
+
     currentFile.clear();
     ui->textEdit->setText(QString());
 
@@ -36,17 +56,42 @@ void Notepad::on_actionNewDocument_triggered()
     ui->textEdit->document()->setDefaultFont(QFont()); // Set to the default font
 
     // Clear formatting (bold, italic, underline)
-    ui->actionBold->setChecked(false);
-    ui->actionItalic->setChecked(false);
-    ui->actionUnderline->setChecked(false);
-    ui->textEdit->setFontWeight(QFont::Normal);
-    ui->textEdit->setFontItalic(false);
-    ui->textEdit->setFontUnderline(false);
+    Notepad::resetFormatting();
+
+    // Move the cursor to the end of the text
+    ui->textEdit->moveCursor(QTextCursor::End);
+
+    // Take a copy of the last time the text was saved. to compare to when
+    QString newText = ui->textEdit->toHtml();
+    Notepad::updateLastSavedText(newText);
+    isTextSaved = true;
+    isTextModified = false;
+    setWindowTitle("");
+    Notepad::updateWindowTitle();
 }
 
 
 void Notepad::on_actionOpenDocument_triggered()
 {
+    if(isTextModified)
+    {
+        // Check if saveAs was canceled and the file is still unsaved
+        if (currFilename.isEmpty() || currFilename.at(currFilename.length() - 1) == unsavedCheck) {
+            // Ask the user if they want to close the window without saving
+            QMessageBox::StandardButton reply = QMessageBox::question(this,
+                                                                      "Unsaved Changes",
+                                                                      "Do you want to open a document without saving?",
+                                                                      QMessageBox::Yes | QMessageBox::No);
+
+            // User chose not to close without saving
+            if (reply == QMessageBox::No)
+            {
+                Notepad::on_actionSaveAsDocument_triggered();
+                return;
+            }
+        }
+    }
+
     QString filename = QFileDialog::getOpenFileName(this, "Open the file");
 
     if(filename.isEmpty()) return;
@@ -58,6 +103,8 @@ void Notepad::on_actionOpenDocument_triggered()
     {
         QMessageBox::warning(this, "Warning", "Cannot open file: " + file.errorString());
     }
+    // Clear formatting (bold, italic, underline)
+    Notepad::resetFormatting();
 
     currFilename = QFileInfo(file).fileName();
     setWindowTitle(currFilename);
@@ -65,7 +112,16 @@ void Notepad::on_actionOpenDocument_triggered()
     QString text = in.readAll();
     ui->textEdit->setText(text);
 
+    // Keep a copy of the last time the text was saved.
+    ui->textEdit->moveCursor(QTextCursor::End);
+    Notepad::updateLastSavedText(text);
+    currentDateTime = QDateTime::currentDateTime();
+
     file.close();
+
+    isTextSaved = true;
+    isTextModified = false;
+    Notepad::updateWindowTitle();
 }
 
 void Notepad::on_actionSaveDocument_triggered()
@@ -90,12 +146,18 @@ void Notepad::on_actionSaveDocument_triggered()
 
     currFilename = QFileInfo(file).fileName();
     setWindowTitle(currFilename);
+    ui->textEdit->moveCursor(QTextCursor::End);
     QTextStream out(&file);
-    QString text = ui->textEdit->toPlainText();
+    QString text = ui->textEdit->toHtml();
     out << text;
+
+    // Keep a copy of the last time the text was saved.
+    Notepad::updateLastSavedText(text);
+    currentDateTime = QDateTime::currentDateTime();
 
     file.close();
     isTextSaved = true;
+    isTextModified = false;
     Notepad::updateWindowTitle();
 }
 
@@ -117,12 +179,18 @@ void Notepad::on_actionSaveAsDocument_triggered()
     //The section below updates the panels title & then the contents of the editor buffer is converted to plain text, and then written to outstream
     currFilename = QFileInfo(file).fileName();
     setWindowTitle(currFilename);
+    ui->textEdit->moveCursor(QTextCursor::End);
     QTextStream out(&file);
-    QString text = ui->textEdit->toPlainText();
+    QString text = ui->textEdit->toHtml();
     out << text;
+
+    // Keep a copy of the last time the text was saved.
+    Notepad::updateLastSavedText(text);
+    currentDateTime = QDateTime::currentDateTime();
 
     file.close();
     isTextSaved = true;
+    isTextModified = false;
     Notepad::updateWindowTitle();
 }
 
@@ -204,12 +272,8 @@ void Notepad::on_actionUnderline_triggered(bool isUnderlined)
 
 void Notepad::on_actionExit_triggered()
 {
-    QChar lastchar;
-
     if(isTextModified)
     {
-        Notepad::on_actionSaveAsDocument_triggered();
-
         // Check if saveAs was canceled and the file is still unsaved
         if (currFilename.isEmpty() || currFilename.at(currFilename.length() - 1) == unsavedCheck) {
             // Ask the user if they want to close the window without saving
@@ -219,7 +283,11 @@ void Notepad::on_actionExit_triggered()
                                                                       QMessageBox::Yes | QMessageBox::No);
 
             // User chose not to close without saving
-            if (reply == QMessageBox::No) return;
+            if (reply == QMessageBox::No)
+            {
+                Notepad::on_actionSaveAsDocument_triggered();
+                return;
+            }
         }
     }
 
@@ -235,13 +303,42 @@ void Notepad::closeEvent(QCloseEvent *event)
 
 void Notepad::on_textEdit_textChanged()
 {
-    isTextModified = true;
-    isTextSaved = false;
-    updateWindowTitle();
+    QString currText;
+
+    // Take a copy of the current changes to the document.
+    !isTextSaved ? currText = ui->textEdit->toPlainText() : currText = ui->textEdit->toHtml();
+
+    if(lastSavedText.contains(currText))
+    {
+        isTextSaved = true;
+        isTextModified = false;
+        updateWindowTitle();
+    }
+    else
+    {
+        isTextModified = true;
+        isTextSaved = false;
+        updateWindowTitle();
+    }
 }
 
 void Notepad::updateWindowTitle()
 {
+    if(currFilename.isEmpty())
+    {
+        if(isTextModified)
+        {
+            // Sets the warning label that there may be unsaved changes
+            ui->warningLabel->setText("Warning: Unsaved Changes!");
+            ui->warningLabel->setStyleSheet("color: rgb(255, 0, 0); font: 400 13pt 'Helvetica';");
+        }
+        else
+        {
+            ui->warningLabel->setText("");
+        }
+        return;
+    }
+
     QChar lastchar;
 
     if(currFilename.isEmpty() == false)
@@ -251,6 +348,10 @@ void Notepad::updateWindowTitle()
 
     if(isTextModified)
     {
+        // Sets the warning label that there may be unsaved changes
+        ui->warningLabel->setText("Warning: Unsaved Changes!");
+        ui->warningLabel->setStyleSheet("color: rgb(255, 0, 0); font: 400 13pt 'Helvetica';");
+
         if(lastchar != unsavedCheck)
         {
             currFilename += '*';
@@ -259,6 +360,10 @@ void Notepad::updateWindowTitle()
     }
     else if(isTextSaved)
     {
+        // set a message so the user can see the last time the document was saved. Also, sets the colour of the text to green.
+        ui->warningLabel->setStyleSheet("color: rgb(0, 255, 0); font: 400 13pt 'Helvetica';");
+        ui->warningLabel->setText("Last Saved at: " + currentDateTime.toString("hh:mm:ss dd-MM-yyyy"));
+
         QChar lastchar;
         lastchar = currFilename.at(currFilename.length()-1);
 
@@ -269,5 +374,27 @@ void Notepad::updateWindowTitle()
 
         setWindowTitle(currFilename);
     }
+}
+
+void Notepad::updateLastSavedText(const QString &txt)
+{
+    lastSavedText = txt;
+}
+
+void Notepad::resetFormatting()
+{
+    // Clear formatting (bold, italic, underline)
+    ui->actionBold->setChecked(false);
+    ui->actionItalic->setChecked(false);
+    ui->actionUnderline->setChecked(false);
+    ui->textEdit->setFontWeight(QFont::Normal);
+    ui->textEdit->setFontItalic(false);
+    ui->textEdit->setFontUnderline(false);
+}
+
+
+void Notepad::on_actionLight_Dark_Mode_triggered()
+{
+
 }
 

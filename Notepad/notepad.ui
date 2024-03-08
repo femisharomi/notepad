@@ -18,6 +18,16 @@
     <item>
      <widget class="QTextEdit" name="textEdit"/>
     </item>
+    <item>
+     <widget class="QLabel" name="warningLabel">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
    </layout>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
@@ -97,6 +107,8 @@
    <addaction name="actionSystem_Info"/>
    <addaction name="separator"/>
    <addaction name="actionExit"/>
+   <addaction name="separator"/>
+   <addaction name="actionLight_Dark_Mode"/>
   </widget>
   <action name="actionOpenDocument">
    <property name="icon">
@@ -315,6 +327,24 @@
    </property>
    <property name="shortcut">
     <string>Ctrl+U</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actionLight_Dark_Mode">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../build-notepad-Qt_6_6_0_for_macOS-Debug/.rcc/notepad.qrc">
+     <normaloff>:/images/light_dark_mode.png</normaloff>:/images/light_dark_mode.png</iconset>
+   </property>
+   <property name="text">
+    <string>Light/Dark Mode</string>
+   </property>
+   <property name="toolTip">
+    <string>Light/Dark Mode</string>
    </property>
    <property name="menuRole">
     <enum>QAction::NoRole</enum>
