@@ -21,6 +21,8 @@ Notepad::Notepad(QWidget *parent)
 
      //Can be used as a signal or method so ignore warning on this line
     connect(this, &QMainWindow::close, this, &Notepad::on_actionExit_triggered);
+
+    Notepad::setDarkTheme();
 }
 
 Notepad::~Notepad()
@@ -395,6 +397,51 @@ void Notepad::resetFormatting()
 
 void Notepad::on_actionLight_Dark_Mode_triggered()
 {
+    if(isDarkTheme)
+    {
+        Notepad::setLightTheme();
+    }
+    else
+    {
+        Notepad::setDarkTheme();
+    }
 
 }
 
+void Notepad::setDarkTheme()
+{
+    qApp->setStyle(QStyleFactory::create("Fusion"));
+
+    // Set application palette
+    QPalette appPalette = qApp->palette();
+    appPalette.setColor(QPalette::Window, QColor(47,47,47));
+    appPalette.setColor(QPalette::WindowText, Qt::white);
+    qApp->setPalette(appPalette);
+
+    // Set QTextEdit palette
+    QPalette textEditPalette = ui->textEdit->palette();
+    textEditPalette.setColor(QPalette::Base, Qt::darkGray);
+    textEditPalette.setColor(QPalette::Text, Qt::white);
+    ui->textEdit->setPalette(textEditPalette);
+
+    isDarkTheme = true;
+}
+
+void Notepad::setLightTheme()
+{
+    qApp->setStyle(QStyleFactory::create("Fusion"));
+
+    // Set application palette
+    QPalette appPalette = qApp->palette();
+    appPalette.setColor(QPalette::Window, QColor(245,245,220));
+    appPalette.setColor(QPalette::WindowText, Qt::black);
+    qApp->setPalette(appPalette);
+
+    // Set QTextEdit palette
+    QPalette textEditPalette = ui->textEdit->palette();
+    textEditPalette.setColor(QPalette::Base, Qt::white);
+    textEditPalette.setColor(QPalette::Text, Qt::black);
+    ui->textEdit->setPalette(textEditPalette);
+
+    isDarkTheme = false;
+}
