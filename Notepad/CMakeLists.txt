@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(Notepad VERSION 0.1 LANGUAGES CXX)
+project(notepad VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
@@ -11,6 +11,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
+find_package(Qt6
+    REQUIRED COMPONENTS Core Gui Widgets
+    OPTIONAL_COMPONENTS PrintSupport
+)
 
 set(PROJECT_SOURCES
         main.cpp
@@ -20,37 +24,37 @@ set(PROJECT_SOURCES
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
-    qt_add_executable(Notepad
+    qt_add_executable(notepad
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
     )
 # Define target properties for Android with Qt 6 as:
-#    set_property(TARGET Notepad APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
+#    set_property(TARGET notepad APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
 #                 ${CMAKE_CURRENT_SOURCE_DIR}/android)
 # For more information, see https://doc.qt.io/qt-6/qt-add-executable.html#target-creation
 else()
     if(ANDROID)
-        add_library(Notepad SHARED
+        add_library(notepad SHARED
             ${PROJECT_SOURCES}
         )
 # Define properties for Android with Qt 5 after find_package() calls as:
 #    set(ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
     else()
-        add_executable(Notepad
+        add_executable(notepad
             ${PROJECT_SOURCES}
         )
     endif()
 endif()
 
-target_link_libraries(Notepad PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(notepad PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an
 # explicit, fixed bundle identifier manually though.
 if(${QT_VERSION} VERSION_LESS 6.1.0)
-  set(BUNDLE_ID_OPTION MACOSX_BUNDLE_GUI_IDENTIFIER com.example.Notepad)
+  set(BUNDLE_ID_OPTION MACOSX_BUNDLE_GUI_IDENTIFIER com.example.notepad)
 endif()
-set_target_properties(Notepad PROPERTIES
+set_target_properties(notepad PROPERTIES
     ${BUNDLE_ID_OPTION}
     MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
     MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
@@ -58,13 +62,48 @@ set_target_properties(Notepad PROPERTIES
     WIN32_EXECUTABLE TRUE
 )
 
+
+set(app_icon_macos "${CMAKE_CURRENT_SOURCE_DIR}/images/notepad_logo.icns")
+set_source_files_properties(${app_icon_macos} PROPERTIES MACOSX_PACKAGE_LOCATION "Resources")
+set(MACOSX_BUNDLE_ICON_FILE notepad_logo.icns)
+
+#resources
+set(notepad_icon_files
+    "images/bold.png"
+    "images/copy.png"
+    "images/cut.png"
+    "images/delete.png"
+    "images/exit.png"
+    "images/font.png"
+    "images/info.png"
+    "images/italic.png"
+    "images/new.png"
+    "images/open.png"
+    "images/paste.png"
+    "images/print.png"
+    "images/redo.png"
+    "images/save.png"
+    "images/saveAs.png"
+    "images/underline.png"
+    "images/undo.png"
+    "images/notepad_logo.png"
+    "images/notepad_logo.icns"
+    "images/light_dark_mode.png")
+
+qt_add_resources(notepad "notepad"
+    PREFIX
+        "/"
+    FILES
+        ${notepad_icon_files}
+    )
+
 include(GNUInstallDirs)
-install(TARGETS Notepad
+install(TARGETS notepad
     BUNDLE DESTINATION .
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
 
 if(QT_VERSION_MAJOR EQUAL 6)
-    qt_finalize_executable(Notepad)
+    qt_finalize_executable(notepad)
 endif()

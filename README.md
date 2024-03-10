@@ -23,7 +23,7 @@ Feel free to reach out if you have any questions or encounter issues.
   - If you're on Windows you will need to build and run the source code to create a Win build of the application.   
 
 ## Pre-commit Hook
-* Copy&paste the pre-commit file (it does not have a file ext) from templates/ to .git/hooks/ to ensure the correct file header is generated for each C/C++ file type committed back to the branch.
+* Copy & paste the pre-commit file (it does not have a file ext) from templates/ to .git/hooks/ to ensure the correct file header is generated for each C/C++ file type committed back to the branch.
 * A hardcoded copy of the header template is also in the templates/ dir for manual use. 
 
 ## Folder Structure
@@ -33,16 +33,19 @@ Feel free to reach out if you have any questions or encounter issues.
   - **`CMakeLists.txt`:**
     - CMake configuration file for project building and management.
     - Used to build the entire application, assuming all prerequisites are installed.
-- **`build_Project_Name_Debug`:**
-  - Folder with the syntax `build_Project_Name_Debug`.
-    - Contains the project along with debug configurations.
-    - Useful for quick testing, but developers are encouraged to create personalized configurations for release builds.
+- **`.gitignore`:**
+    - The `.gitignore` file is currently set up to block the debug folder from being tracked by Git. If removed then the following debug folder will be added to the branch:
+    	- ***`build_Project_Name_Debug`:***
+     		- Folder with the syntax `build_Project_Name_Debug`.
+       		- Contains the project along with debug configurations.
+         	- Useful for quick testing, but developers are encouraged to create personalized configurations for release builds.
 
 ## License
 - This project is open-source and licensed under the [GNU Lesser General Public License v3.0](https://opensource.org/licenses/LGPL-3.0).
 - This project may use the Qt framework, which is licensed under the [Qt Commercial License](https://www.qt.io/licensing). Please refer to the respective licenses for more details.
+- This project uses icons from icons8 licenced under the [Icons8 licence](https://www.icons8.com/licence)
 
 ### Author
 - [Femi Sharomi](https://github.com/femisharomi)
   
-©2024 FemiSharomi
+©2024 FemiSharomi. Icons by Icons8
