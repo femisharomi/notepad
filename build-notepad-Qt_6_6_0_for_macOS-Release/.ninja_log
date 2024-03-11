@@ -1,0 +1,13 @@
+# ninja log v5
+1	93	1710197826794345000	notepad.app/Contents/Resources/notepad_logo.icns	c97182863b728783
+1	762	1710197827417039936	notepad_autogen/timestamp	6b71a1fb399f0efe
+1	762	1710197827417039936	notepad_autogen/mocs_compilation.cpp	6b71a1fb399f0efe
+1	762	1710197827417039936	/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Release/notepad_autogen/timestamp	6b71a1fb399f0efe
+1	762	1710197827417039936	/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Release/notepad_autogen/mocs_compilation.cpp	6b71a1fb399f0efe
+762	844	1710197827547029558	.rcc/qrc_notepad.cpp	cd71e96cd3ce1d56
+762	844	1710197827547029558	/Users/femi/Documents/GitHub/notepad/build-notepad-Qt_6_6_0_for_macOS-Release/.rcc/qrc_notepad.cpp	cd71e96cd3ce1d56
+845	2351	1710197829043792629	CMakeFiles/notepad.dir/.rcc/qrc_notepad.cpp.o	7f17f6fdb28f6cd3
+845	7587	1710197834263084860	CMakeFiles/notepad.dir/main.cpp.o	92055e0af4e64f9a
+844	7711	1710197834392228598	CMakeFiles/notepad.dir/notepad_autogen/mocs_compilation.cpp.o	27dc56a7c9e040f4
+845	8909	1710197835598028485	CMakeFiles/notepad.dir/notepad.cpp.o	24bbca0b906e8fe4
+8910	9455	1710197836148817075	notepad.app/Contents/MacOS/notepad	84a3c983cd163d8b
