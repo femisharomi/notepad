@@ -1,0 +1,25 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="images/bold.png">/Users/femi/Documents/GitHub/notepad/Notepad/images/bold.png</file>
+    <file alias="images/copy.png">/Users/femi/Documents/GitHub/notepad/Notepad/images/copy.png</file>
+    <file alias="images/cut.png">/Users/femi/Documents/GitHub/notepad/Notepad/images/cut.png</file>
+    <file alias="images/delete.png">/Users/femi/Documents/GitHub/notepad/Notepad/images/delete.png</file>
+    <file alias="images/exit.png">/Users/femi/Documents/GitHub/notepad/Notepad/images/exit.png</file>
+    <file alias="images/font.png">/Users/femi/Documents/GitHub/notepad/Notepad/images/font.png</file>
+    <file alias="images/info.png">/Users/femi/Documents/GitHub/notepad/Notepad/images/info.png</file>
+    <file alias="images/italic.png">/Users/femi/Documents/GitHub/notepad/Notepad/images/italic.png</file>
+    <file alias="images/new.png">/Users/femi/Documents/GitHub/notepad/Notepad/images/new.png</file>
+    <file alias="images/open.png">/Users/femi/Documents/GitHub/notepad/Notepad/images/open.png</file>
+    <file alias="images/paste.png">/Users/femi/Documents/GitHub/notepad/Notepad/images/paste.png</file>
+    <file alias="images/print.png">/Users/femi/Documents/GitHub/notepad/Notepad/images/print.png</file>
+    <file alias="images/redo.png">/Users/femi/Documents/GitHub/notepad/Notepad/images/redo.png</file>
+    <file alias="images/save.png">/Users/femi/Documents/GitHub/notepad/Notepad/images/save.png</file>
+    <file alias="images/saveAs.png">/Users/femi/Documents/GitHub/notepad/Notepad/images/saveAs.png</file>
+    <file alias="images/underline.png">/Users/femi/Documents/GitHub/notepad/Notepad/images/underline.png</file>
+    <file alias="images/undo.png">/Users/femi/Documents/GitHub/notepad/Notepad/images/undo.png</file>
+    <file alias="images/notepad_logo.png">/Users/femi/Documents/GitHub/notepad/Notepad/images/notepad_logo.png</file>
+    <file alias="images/notepad_logo.icns">/Users/femi/Documents/GitHub/notepad/Notepad/images/notepad_logo.icns</file>
+    <file alias="images/light_dark_mode.png">/Users/femi/Documents/GitHub/notepad/Notepad/images/light_dark_mode.png</file>
+  </qresource>
+</RCC>
+
